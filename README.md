@@ -1,4 +1,3 @@
-[TOC]
 # 欢迎查阅Appium（Android自动化测试框架体系）
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -8,7 +7,6 @@
         •  移动网页应用是指网页应用，例如IOS中Safari，Chrome等浏览器的应用。
         •  混合应用是指一种包裹WebView的应用，原生应用于网页内容交互性的应用，例如微信即有分期
         •  其中最重要的是Appium是跨平台的，何为跨平台，意思就是可以针对不同的平台用一套API来编写测试用例
-![](https://pan.baidu.com/s/1rja1PF-NzzRKM_fdJaDGpw)
 
 ### 框架介绍
     Java + Appium + Maven + TestNG + JDBC + Xml+ Git + +Ant + Jenkins 
@@ -190,9 +188,9 @@
  - 编写完对应测试用例类【WeChatLogin.java】，和测试脚本【WeChatLogin.xml】后，在IDE集成开发环境下选择WeChatLogin.java右键使用TestNG运行即可
 
 ### 五、测试报告
- - 测试报告分为两种，一种是TestNG自带的TestngReport测试报告，另外一种则是调用ExtentReports生成的报告，第二张更加美观，清晰
+ - 测试报告分为两种，一种是TestNG自带的TestngReport测试报告，另外一种则是调用ExtentReports生成的报告，第二种更加美观
 
-####【TestngReport】
+### TestngReport
     <?xml version="1.0" encoding="UTF-8"?>
     <suite name="Appium测试报告" parallel="false" configfailurepolicy ="continue">
         <test name="微信登录流程" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="60000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
@@ -204,8 +202,8 @@
                         <exclude name="" />
                     </methods>
             </classes>
-        </test>
-        ------------------------------------------------------------------------------------------------------  
+        </test>  
+     ------------------------------------------------------------------------------------------------------
     <!-- 调用的监听 -->    
         <listeners>
             <listener class-name="org.uncommons.reportng.HTMLReporter" />
@@ -213,7 +211,7 @@
         </listeners>      
     </suite>
 
-####【ExtentReports】
+### ExtentReports
     <?xml version="1.0" encoding="UTF-8"?>
     <suite name="Suite" verbose="1" preserve-order="true" parallel="false">
         <suite-files>
@@ -234,15 +232,8 @@
 
 非常感谢您花费时间阅读，祝您在这里记录、阅读、分享愉快！
 
-作者 [@刘智King][1]  
+作者：[@刘智King]            
+QQ：1306086303             
+Email：hagyao520@163.com
 2018 年 4 月 20 日
-有不懂的地方，点击名称可加QQ好友联系我......  
-[1]: tencent://AddContact/?fromId=50&fromSubId=1&subcmd=all&uin=130608630
-
-
-
-
-
-
-
-
+有不懂的地方，点击名称可加QQ好友联系我......

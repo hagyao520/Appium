@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:math="http://exslt.org/math"
+     xmlns:testng="http://testng.org"
+     preserveAspectRatio="xMidYMid meet"
+     width="600"
+     height="200"
+     viewBox="0 0 900 300">
+   <defs>
+      <style type="text/css">
+                        
+				            .axistitle { font-weight:bold; font-size:24px; font-family:Arial; text-anchor:middle; }
+				            .xgrid, .ygrid, .legendtext { font-weight:normal; font-size:24px; font-family:Arial; }
+				            .xgrid {text-anchor:middle;}
+				            .ygrid {text-anchor:end;}
+				            .gridline { stroke:black; stroke-width:1; }
+				            .values { fill:black; stroke:none; text-anchor:middle; font-size:12px; font-weight:bold; }
+	   		            
+                    </style>
+   </defs>
+   <svg id="graphzone" preserveAspectRatio="xMidYMid meet" x="0" y="0">
+      <rect style="fill:red;stroke-width:1;stroke:black;" x="10" y="86" width="20"
+            height="20"/>
+      <text class="legendtext" x="40" y="105">Failed (56%)
+                    </text>
+      <rect style="fill:green;stroke-width:1;stroke:black;" x="10" y="125" width="20"
+            height="20"/>
+      <text class="legendtext" x="40" y="143">Passed (44%)
+                    </text>
+      <rect style="fill:yellow;stroke-width:1;stroke:black;" x="10" y="163" width="20"
+            height="20"/>
+      <text class="legendtext" x="40" y="182">Skipped (0%)
+                    </text>
+      <g style="stroke:black;stroke-width:1" transform="translate(450,150)">
+         <g style="fill:red" transform="rotate(-0) translate(-3, -16)">
+            <path d="M 0 0 h 130 A 130,130 0,1,0 -122.16007299137332,44.46252991837445 z"/>
+         </g>
+         <g style="fill:green" transform="rotate(-200)">
+            <path d="M 0 0 h 130 A 130,130 0,0,0 -122.1600148707575,-44.46268960349012 z"/>
+         </g>
+      </g>
+   </svg>
+</svg>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="TestNGTest" default="publishReport" basedir=".">
+	<!-- Define <testng> task -->
+	<taskdef name="testng" classname="org.testng.TestNGAntTask">
+		<classpath>
+			<pathelement location="Libs/Tentng/testng-6.9.10.jar"/>
+		</classpath>
+	</taskdef>
+	<!--end define-->
+	
+	<!-- properties -->
+	<property name="base.dir" value="${basedir}"/>
+	<property name="run.classpath" value="bin" />
+    <property name="run.srcpath" value="src" />
+    <property name="lib.dir" value="target" />
+    <property name="TestData.dir" value="TestData" />
+    <property name="targetData.dir" value="target/TestData" />
+    <property name="xsl.dir" value="Libs/TestReport/TestngReport" />
+	<property name="xml.dir" value="src/main/java/TestReportXml" />
+	<property name="run.xml" value="Test.xml" />
+	<property name="tng.testngOutput" value="TestOutput" />
+	<property name="tng.testngReport" value="TestOutput/TestngReport" />
+	<property name="tng.publishdir" value="D:\Program\Tomcat\webapps\Appium\TestOutput" />
+	<!--end-->
+	
+	<!-- define jar  -->
+	<path id="path.lib">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+	
+	<!-- path for testng -->
+	<path id="testng.classpath" >
+		<path refid="path.lib" />
+		<pathelement location="${run.classpath}" />
+	</path>
+	<!-- end -->
+
+	<!-- target compile -->
+	<target name="init">
+		<!--delete old dir-->
+		<delete dir="${run.classpath}" />
+		<!--create new dir-->
+		<mkdir dir="${run.classpath}" />
+	</target>
+
+	<!-- target compile -->
+	<target name="compile" depends="init">
+		<javac srcdir="${run.srcpath}" destdir="${run.classpath}" encoding="utf-8" includeantruntime="false" debug="on" debuglevel="lines,vars,source">
+			<classpath refid="path.lib" />
+		</javac>  
+		<copy todir="${targetData.dir}" >
+			<fileset dir="${TestData.dir}" includes="**/**" />
+		</copy>
+	</target>
+
+	<!-- target test -->
+	<target name="testng" depends="compile">
+		<!--<echo message="${xml.dir}[****testng xml folder****]" />-->
+		<testng outputdir="${tng.testngReport}" classpathref="testng.classpath">
+		    <jvmarg value="-Dfile.encoding=UTF-8"/>   
+			<xmlfileset dir="${xml.dir}">
+				<include name="${run.xml}"/>
+			</xmlfileset>
+		</testng>
+	</target>
+
+	<target name="transform" depends="testng">
+        <xslt in="${base.dir}/TestOutput/TestngReport/testng-results.xml"
+              style="${xsl.dir}/testng-results.xsl"
+              out="${base.dir}/TestOutput/TestngReport/indexDecorate.html">
+            <param name="testNgXslt.outputDir"
+                   expression="${base.dir}/TestOutput/TestngReport"/>
+            <classpath refid="path.lib"/>
+        </xslt>
+    </target>
+    
+	<!-- publish report -->
+	<target name="publishReport" depends="transform">
+		<!-- init the test report folder -->
+		<delete dir="${tng.publishdir}" />
+		<mkdir dir="${tng.publishdir}" />
+		<copy todir="${tng.publishdir}" >
+			<fileset dir="${tng.testngOutput}" includes="**/**" />
+		</copy>
+	</target>
+</project>

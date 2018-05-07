@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="0" started-at="2017-11-17T07:43:47Z" finished-at="2017-11-17T07:43:47Z">
+    <groups>
+    </groups>
+  </suite> <!-- Suite -->
+  <suite name="P2P/XD/XT_CooperationModel" duration-ms="1834" started-at="2017-11-17T07:43:45Z" finished-at="2017-11-17T07:43:47Z">
+    <groups>
+    </groups>
+    <test name="P2P_DR模式下购买手机系列A产品的测试场景点" duration-ms="1834" started-at="2017-11-17T07:43:45Z" finished-at="2017-11-17T07:43:47Z">
+      <class name="JYBTestCases.P2P_DR_Mobile_SeriesA">
+        <test-method status="PASS" signature="stup()[pri:0, instance:JYBTestCases.P2P_DR_Mobile_SeriesA@f6c48ac]" name="stup" is-config="true" duration-ms="101" started-at="2017-11-17T15:43:45Z" finished-at="2017-11-17T15:43:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- stup -->
+        <test-method status="FAIL" signature="Precondition()[pri:0, instance:JYBTestCases.P2P_DR_Mobile_SeriesA@f6c48ac]" name="Precondition" duration-ms="1702" started-at="2017-11-17T15:43:45Z" finished-at="2017-11-17T15:43:47Z">
+          <exception class="java.lang.reflect.InvocationTargetException">
+            <full-stacktrace>
+              <![CDATA[java.lang.reflect.InvocationTargetException
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at com.dafycredit.giveu.test.service.RunUnit_Service.runCase(RunUnit_Service.java:86)
+	at JYBTestCases.P2P_DR_Mobile_SeriesA.Precondition(P2P_DR_Mobile_SeriesA.java:24)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: java.lang.NullPointerException
+	at com.dafycredit.giveu.test.handler.DBAction_Handler.dbUpdate(DBAction_Handler.java:56)
+	... 18 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.reflect.InvocationTargetException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Precondition -->
+        <test-method status="PASS" signature="TearDown()[pri:0, instance:JYBTestCases.P2P_DR_Mobile_SeriesA@f6c48ac]" name="TearDown" is-config="true" duration-ms="7" started-at="2017-11-17T15:43:47Z" finished-at="2017-11-17T15:43:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TearDown -->
+      </class> <!-- JYBTestCases.P2P_DR_Mobile_SeriesA -->
+    </test> <!-- P2P_DR模式下购买手机系列A产品的测试场景点 -->
+  </suite> <!-- P2P/XD/XT_CooperationModel -->
+</testng-results>

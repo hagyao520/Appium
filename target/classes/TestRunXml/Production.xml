@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" verbose="1" preserve-order="true" parallel="false">
+    <suite-files>
+        <suite-file path="JMD_Production.xml"></suite-file>
+    </suite-files>
+    <listeners>
+        <listener class-name="com.jmoney.jiumiaodai.service.ExtentReportGenerateService"></listener>
+    </listeners> 
+</suite>

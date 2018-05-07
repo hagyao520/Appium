@@ -1,0 +1,978 @@
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestNGContentHandler] [WARN] It is strongly recommended to add "<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >" at the top of your file, otherwise TestNG may fail or not work as expected.
+[TestRunner] Running the tests in 'P2P_PPM模式下-用户购买A系列手机' with parallel mode:false
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@23ceabc1 priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=TestCases.P2P_PPM_Mobile_Series_A]
+[TestRunner] Running the tests in 'P2P_TBJ模式下-用户购买B系列手机' with parallel mode:false
+[RunInfo] Adding method selector: org.testng.internal.XmlMethodSelector@4dfa3a9d priority: 10
+[TestClass] Creating TestClass for [ClassImpl class=TestCases.P2P_TBJ_Mobile_Series_B]
+[TestNG] Running:
+  D:\King\Eclipse\GiveU.3COrder\GiveU.3COrder.Test\GiveU.3COrder.Android.Test\scr\TestXml\P2P_CooperationModel.xml
+
+[SuiteRunner] Created 2 TestRunners
+[TestRunner] Running test P2P_PPM模式下-用户购买A系列手机 on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+TestCases.P2P_PPM_Mobile_Series_A
+    @Test P2P_PPM_Mobile_Series_A.case_14()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_15()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_12()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_13()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_18()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_19()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.Precondition()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_16()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_17()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_50()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_51()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_10()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_11()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_52()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_53()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_25()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case1()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_26()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_23()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case2()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_24()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case3()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case4()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_29()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case5()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case6()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_27()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_28()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case7()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case8()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case9()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_21()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_22()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_20()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_36()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_37()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_34()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_35()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_38()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_39()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_32()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_33()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_30()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_31()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_47()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_48()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_45()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_46()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_49()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_40()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_43()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_44()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_41()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+    @Test P2P_PPM_Mobile_Series_A.case_42()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+======
+[Invoker 1072601481] Invoking @BeforeTest P2P_PPM_Mobile_Series_A.stup()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+log4j:ERROR Could not find value for key log4j.appender.stdout
+log4j:ERROR Could not instantiate appender named "stdout".
+-----------------------------------【P2P_PPM模式下购买手机系列A产品的测试场景点】-----------------------------------
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.Precondition
+『正常测试』开始执行: update cs_credit set STATUS='t' where ID_PERSON=14149441 <进行数据库操作,修改当前用户所有的合同为取消状态>
+『正常测试』开始执行: delete cs_creditmodel_city where city in('其他','北京','') and is_wallet=0 <进行数据库操作,删除当前用户对应城市所绑定的合同模式,实现解绑操作>
+『正常测试』开始执行: insert into cs_creditmodel_city(city,credit_model,status,update_user,update_time,is_wallet) values('北京','P2P_PPM',1,100000,sysdate,0) <进行数据库操作,插入当前用户对应城市所绑定的合同模式,实现绑定操作>
+『正常测试』开始执行: delete from dafy_sales.cs_contact where ID_PERSON=14149441 <进行数据库操作,删除当前用户之前提单所填写的家庭联系人信息>
+『正常测试』开始执行: delete from dafy_sales.Cs_Other_person where ID_PERSON=14149441 <进行数据库操作,删除当前用户之前提单所填写的其他联系人信息>
+[Invoker 1072601481] Method Precondition completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case1
+『正常测试』开始执行: <以每次500毫秒的时间,向左滑动3次至引导页最后一页>
+『正常测试』开始执行: <检查首次启动即有宝APP向左滑动三次引导页后,是否成功进入引导页最后一页>
+[Invoker 1072601481] Method case1 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case2
+『正常测试』开始执行: <点击开始体验按钮>
+『正常测试』开始执行: <检查在引导页最后一页点击开始体验按钮后,是否成功进入登录界面>
+[Invoker 1072601481] Method case2 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case3
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <检查在登录界面,输入账号和密码都为空,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case3 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case4
+『正常测试』开始执行: <输入正确登录账号>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号,密码为空,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case4 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case5
+『正常测试』开始执行: <清空登录账号>
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <检查在登录界面,输入账号为空,正确的密码,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case5 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case6
+『正常测试』开始执行: <输入正确登录账号>
+『正常测试』开始执行: <清空登录密码>
+『正常测试』开始执行: <输入错误登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <点击网络或卫星定位权限的允许按钮>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号,错误的密码,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case6 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case7
+『正常测试』开始执行: <清空登录账号>
+『正常测试』开始执行: <输入错误登录账号>
+『正常测试』开始执行: <清空登录密码>
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在登录界面,输入错误的账号,正确的密码,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case7 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case8
+『正常测试』开始执行: <清空登录账号>
+『正常测试』开始执行: <输入错误登录账号>
+『正常测试』开始执行: <清空登录密码>
+『正常测试』开始执行: <输入错误登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在登录界面,输入错误的账号,错误的密码,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case8 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case9
+『正常测试』开始执行: <清空登录账号>
+『正常测试』开始执行: <输入正确登录账号>
+『正常测试』开始执行: <清空登录密码>
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <打开Androud系统通知栏>
+『正常测试』开始执行: <启动飞行模式,关闭网络>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号和密码,未连接网络时,点击登录按钮后,是否可以弹出对应提示>
+[Invoker 1072601481] Method case9 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_10
+『正常测试』开始执行: <点击取消按钮>
+『正常测试』开始执行: <点击Android系统Hmoe键,返回主界面>
+『正常测试』开始执行: <打开Androud系统通知栏>
+『正常测试』开始执行: <关闭飞行模式,启用网络>
+『正常测试』开始执行: <强制等待1秒>
+『正常测试』开始执行: <以每次500毫秒的时间,向右滑动1次>
+『正常测试』开始执行: <点击一键清理>
+『正常测试』开始执行: <强制等待1秒>
+『正常测试』开始执行: <点击安全中心>
+『正常测试』开始执行: <点击授权管理>
+『正常测试』开始执行: <点击应用权限管理>
+『正常测试』开始执行: <点击即有宝>
+『正常测试』开始执行: <点击定位选项>
+『正常测试』开始执行: <点击拒绝>
+『正常测试』开始执行: <点击返回按钮3次,返回至安全中心界面>
+『正常测试』开始执行: <点击Android系统Hmoe键,返回主界面>
+『正常测试』开始执行: <以每次500毫秒的时间,向左滑动1次>
+『正常测试』开始执行: <点击即有宝APP>
+『正常测试』开始执行: <输入正确登录账号>
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待50秒>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号和密码,未开启GPS定位权限时,点击登录按钮后,是否可以弹出对应提示>
+[Invoker 1072601481] Method case_10 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_11
+『正常测试』开始执行: <点击权限设置>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动2次>
+『正常测试』开始执行: <点击权限管理>
+『正常测试』开始执行: <点击定位>
+『正常测试』开始执行: <点击允许>
+『正常测试』开始执行: <点击返回按钮2次,返回至登录界面>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待30秒>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号和密码,已连接网络和开启GPS定位权限时,点击登录按钮后,是否可以正常登录并进入设置解锁密码界面>
+[Invoker 1072601481] Method case_11 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_12
+『正常测试』开始执行: <点击暂不按钮>
+『正常测试』开始执行: <点击授权提示的确定按钮>
+『正常测试』开始执行: <点击通讯录权限的允许按钮>
+『正常测试』开始执行: <点击返回按钮2次,退出即有宝APP>
+『正常测试』开始执行: <点击即有宝APP>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查验证即有宝APP退出关闭后,下次启动时,是否可以正常进入解锁界面>
+[Invoker 1072601481] Method case_12 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_13
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <点击确定按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在解锁界面,输入对应用户的登录密码,点击确定按钮后,是否可以正常进入新建订单界面>
+[Invoker 1072601481] Method case_13 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_14
+『正常测试』开始执行: select * from sys_user_list where ID='666666' <进行数据库操作,根据用户ID查询用户信息,并保存记录到本地>
+『正常测试』开始执行: <检查在数据库中,对应的用户密码是否经过加密处理并显示为暗文,且具备安全特性>
+[Invoker 1072601481] Method case_14 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_15
+『正常测试』开始执行: <点击商品门店选项>
+『正常测试』开始执行: <选择安科达科技有限公司商品门店>
+『正常测试』开始执行: <点击商品类型选项>
+『正常测试』开始执行: <选择手机>
+『正常测试』开始执行: <点击产品版本选项>
+『正常测试』开始执行: <选择系列A>
+『正常测试』开始执行: <点击产品类型选项>
+『正常测试』开始执行: <选择非学生产品>
+『正常测试』开始执行: <输入商品总额5000>
+『正常测试』开始执行: <输入首付总额2000>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在新建订单界面,选择输入对应产品信息,点击下一步按钮后,是否可以正常进入产品列表界面>
+[Invoker 1072601481] Method case_15 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_16
+『正常测试』开始执行: <检查在产品列表界面,对应贷款金额是否显示正确>
+『正常测试』开始执行: <检查在产品列表界面,对应保险费用是否显示正确>
+『正常测试』开始执行: <检查在产品列表界面,对应权益包费用是否显示正确>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动1次>
+『正常测试』开始执行: <检查在产品列表界面,选择分期栏下对应分期数是否显示正确>
+『正常测试』开始执行: <检查在产品列表界面,选择分期栏下对应每期应还金额是否显示正确>
+『正常测试』开始执行: <检查在产品列表界面,选择分期栏下对应产品代码是否显示正确>
+『正常测试』开始执行: <选择分期数为18的产品>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在产品列表界面,选择对应产品信息,点击下一步按钮后,是否可以正常进入商品信息界面>
+[Invoker 1072601481] Method case_16 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_17
+『正常测试』开始执行: <检查在商品信息界面,对应的商品类型是否显示正确>
+『正常测试』开始执行: <检查在商品信息界面,对应商品总额是否显示正确>
+『正常测试』开始执行: <检查在商品信息界面,对应首付总额是否显示正确>
+『正常测试』开始执行: <检查在商品信息界面,对应贷款金额是否显示正确>
+『正常测试』开始执行: <检查在商品信息界面,对应商品总额是否显示正确>
+『正常测试』开始执行: <检查在商品信息界面,对应每期应还金额是否显示正确>
+『正常测试』开始执行: <检查在商品信息界面,对应产品代码是否显示正确>
+『正常测试』开始执行: <点击商品小类选项>
+『正常测试』开始执行: <选择手机>
+『正常测试』开始执行: <点击商品品牌选项>
+『正常测试』开始执行: <选择三星>
+『正常测试』开始执行: <输入商品型号GALAXY S7>
+『正常测试』开始执行: <点击勾选手机健康服务费选项>
+『正常测试』开始执行: <以500毫秒滑动时间,向上滑动1次>
+『正常测试』开始执行: <点击勾选手机延保服务费选项>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在商品信息界面,选择对应商品信息,点击下一步按钮后,是否可以正常进入客户信息界面>
+[Invoker 1072601481] Method case_17 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_18
+『正常测试』开始执行: <点击请拍摄身份证正面选项>
+『正常测试』开始执行: <点击允许>
+『正常测试』开始执行: <点击拍照按钮>
+『正常测试』开始执行: <强制等待3秒>
+『正常测试』开始执行: <输入身份证姓名>
+『正常测试』开始执行: <输入身份证号码>
+『正常测试』开始执行: <点击所在省市区选项>
+『正常测试』开始执行: <在省份列中,向上滑动5次,选中山西省>
+『正常测试』开始执行: <在城市列中,向上滑动6次,选中临汾市>
+『正常测试』开始执行: <在区县列中,向上滑动6次,选中襄汾县>
+『正常测试』开始执行: <点击确定按钮>
+『正常测试』开始执行: <清空身份证详细地址>
+『正常测试』开始执行: <输入身份证详细地址>
+『正常测试』开始执行: <点击请拍摄身份证反面选项>
+『正常测试』开始执行: <点击拍照按钮>
+『正常测试』开始执行: <强制等待3秒>
+『正常测试』开始执行: <输入身份证发证机关>
+『正常测试』开始执行: <清空身份证有效期>
+『正常测试』开始执行: <输入身份证有效期>
+『正常测试』开始执行: <点击生成订单按钮>
+『正常测试』开始执行: <隐性等待20秒>
+『正常测试』开始执行: <检查在客户信息界面,上传输入对应客户身份证正反面照片信息后,点击生成订单按钮后,是否可以正常进入基本信息界面>
+[Invoker 1072601481] Method case_18 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_19
+『正常测试』开始执行: <点击现居住市县选项>
+『正常测试』开始执行: <点击确定按钮>
+『正常测试』开始执行: <清空现居住详细地址>
+『正常测试』开始执行: <输入客户现居住详细地址>
+『正常测试』开始执行: <点击教育程度选项>
+『正常测试』开始执行: <选择本科>
+『正常测试』开始执行: <清空个人月收入总额>
+『正常测试』开始执行: <输入客户个人月收入总额>
+『正常测试』开始执行: <清空个人月支出>
+『正常测试』开始执行: <输入客户个人月支出>
+『正常测试』开始执行: <清空家庭月收入总额>
+『正常测试』开始执行: <输入客户家庭月收入总额>
+『正常测试』开始执行: <清空手机号码>
+『正常测试』开始执行: <输入客户手机号码>
+『正常测试』开始执行: <清空客户邮箱>
+『正常测试』开始执行: <输入客户邮箱>
+『正常测试』开始执行: <清空QQ号码>
+『正常测试』开始执行: <输入客户QQ号码>
+『正常测试』开始执行: <清空微信号码>
+『正常测试』开始执行: <输入客户微信号码>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动1次>
+『正常测试』开始执行: <点击住房情况选项>
+『正常测试』开始执行: <选择自有房>
+『正常测试』开始执行: <点击婚姻状况选项>
+『正常测试』开始执行: <选择未婚>
+『正常测试』开始执行: <清空家庭固定电话>
+『正常测试』开始执行: <输入客户家庭固定电话>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在客户信息界面,上传输入对应客户身份证正反面照片信息后,点击下一步按钮后,是否可以正常进入单位信息界面>
+[Invoker 1072601481] Method case_19 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_20
+『正常测试』开始执行: <勾选同步现居住地址选项>
+『正常测试』开始执行: <清空单位名称>
+『正常测试』开始执行: <输入单位名称>
+『正常测试』开始执行: <清空单位电话>
+『正常测试』开始执行: <输入单位电话/手机>
+『正常测试』开始执行: <清空单位分机号>
+『正常测试』开始执行: <输入单位固话分机号>
+『正常测试』开始执行: <点击行业类别选项>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动3次>
+『正常测试』开始执行: <选择金融机构、专业性事务机构>
+『正常测试』开始执行: <点击单位性质选项>
+『正常测试』开始执行: <选择私企>
+『正常测试』开始执行: <清空任职部门>
+『正常测试』开始执行: <输入单位任职部门>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动2次>
+『正常测试』开始执行: <点击职位选项>
+『正常测试』开始执行: <选择专业(技术)人员>
+『正常测试』开始执行: <点击入职时间选项>
+『正常测试』开始执行: <在年份列中,向下滑动1次,选中2016年>
+『正常测试』开始执行: <在月份列中,向上滑动1次,选中10月>
+『正常测试』开始执行: <点击确定按钮>
+『正常测试』开始执行: <点击工作年限选项>
+『正常测试』开始执行: <选择1年>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在单位信息界面,选择输入对应客户单位信息后,点击下一步按钮后,是否可以正常进入联系人填写界面>
+[Invoker 1072601481] Method case_20 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_21
+『正常测试』开始执行: <清空联系人姓名>
+『正常测试』开始执行: <输入客户家庭联系人姓名>
+『正常测试』开始执行: <清空联系人电话号码>
+『正常测试』开始执行: <输入客户家庭联系人手机号>
+『正常测试』开始执行: <点击家庭联系人与本人关系选项>
+『正常测试』开始执行: <选择父亲>
+『正常测试』开始执行: <清空联系人姓名>
+『正常测试』开始执行: <输入客户其他联系人姓名>
+『正常测试』开始执行: <清空联系人电话号码>
+『正常测试』开始执行: <输入客户其他联系人手机号>
+『正常测试』开始执行: <点击其他联系人与本人关系选项>
+『正常测试』开始执行: <选择兄弟>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待20秒>
+『正常测试』开始执行: <检查在联系人填写界面,选择输入对应客户联系人信息后,点击下一步按钮后,是否可以正常进入绑定银行卡界面>
+[Invoker 1072601481] Method case_21 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_22
+『正常测试』开始执行: <清空储蓄卡号>
+『正常测试』开始执行: <点击存储卡号输入框>
+『正常测试』开始执行: <执行ADB命令,切换到搜狗输入法>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,6键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,2键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,1键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,7键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,0键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,0键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,2键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,6键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,7键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,0键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,0键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,0键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,9键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,8键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,6键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,3键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,0键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,2键>
+『正常测试』开始执行: <点击Android系统搜狗输入法键盘,0键>
+『正常测试』开始执行: <执行ADB命令,切换到UnicodeIME输入法>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <点击开户行省/直辖市选项>
+『正常测试』开始执行: <在省份列中,向上滑动19次,选中湖北>
+『正常测试』开始执行: <在城市列中,向上滑动15次,选中襄阳>
+『正常测试』开始执行: <点击确定按钮>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在绑定银行卡界面,输入对应客户银行卡信息后,点击下一步按钮后,是否可以正常进入其他信息界面>
+[Invoker 1072601481] Method case_22 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_23
+『正常测试』开始执行: <点击评定内部代码选项>
+『正常测试』开始执行: <选择内部代码1>
+『正常测试』开始执行: <输入销售备注>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在其他信息界面,输入对应客户其他信息后,点击下一步按钮后,是否可以正常进入芝麻信用认证界面>
+[Invoker 1072601481] Method case_23 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_24
+『正常测试』开始执行: <点击跳过认证按钮>
+『正常测试』开始执行: <检查在芝麻信用认证界面,点击跳过认证按钮后,是否可以正常跳过认证并进入运营商授权认证界面>
+[Invoker 1072601481] Method case_24 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_25
+『正常测试』开始执行: <点击跳过认证按钮>
+『正常测试』开始执行: <检查在运营商授权认证界面,点击跳过认证按钮后,是否可以正常跳过认证并进入影像证明界面>
+[Invoker 1072601481] Method case_25 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_26
+『正常测试』开始执行: <点击上传征信授权照片第一个选项>
+『正常测试』开始执行: <点击拍照按钮>
+『正常测试』开始执行: <强制等待2秒>
+『正常测试』开始执行: <点击拍照确定按钮>
+『正常测试』开始执行: <强制等待2秒>
+『正常测试』开始执行: <点击上传客户门店照片第一个选项>
+『正常测试』开始执行: <点击拍照按钮>
+『正常测试』开始执行: <强制等待2秒>
+『正常测试』开始执行: <点击拍照确定按钮>
+『正常测试』开始执行: <强制等待2秒>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动1次>
+『正常测试』开始执行: <点击上传银行卡照片第一个选项>
+『正常测试』开始执行: <点击拍照按钮>
+『正常测试』开始执行: <强制等待2秒>
+『正常测试』开始执行: <点击拍照确定按钮>
+『正常测试』开始执行: <强制等待2秒>
+『正常测试』开始执行: <点击确认提交按钮>
+『正常测试』开始执行: <隐性等待30秒>
+『正常测试』开始执行: <检查在影像证明界面,上传对应客户影像证明照片,点击确认提交按钮后,是否可以正常弹出请输入登录密码,以验证身份界面>
+[Invoker 1072601481] Method case_26 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_27
+『正常测试』开始执行: <输入用户登录密码>
+『正常测试』开始执行: <点击确认按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在请输入登录密码,以验证身份界面,输入对应用户登录密码,点击确认按钮后,是否可以正常提交合同并进入成功提交界面>
+[Invoker 1072601481] Method case_27 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_28
+『正常测试』开始执行: <点击查看订单按钮>
+『正常测试』开始执行: <检查在成功提交界面,点击查看订单按钮后,是否可以正常进入订单列表-审核中列界面>
+[Invoker 1072601481] Method case_28 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_29
+『正常测试』开始执行: <检查在审核中列界面,对应合同的客户姓名是否显示正确>
+『正常测试』开始执行: <检查在审核中列界面,对应合同的合同状态是否显示正确>
+『正常测试』开始执行: <检查在审核中列界面,对应合同的商品品牌是否显示正确>
+『正常测试』开始执行: <检查在审核中列界面,对应合同的贷款金额是否显示正确>
+『正常测试』开始执行: <检查在审核中列界面,对应合同的申请时间是否显示正确>
+[Invoker 1072601481] Method case_29 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_30
+『正常测试』开始执行: <获取合同号信息,设置值到全局>
+SrepAction: {SYSUSERLIST=[{WORKING_PROPERTY=null, SCHOOL=null, COMPANY_NO=null, MAJOR=null, GRADUATION_DATE=null, PHONE=13111111111, EDUCATION=null, COMPANY_ADDRESS=null, EMAIL=null, STATUS=1, ROLE_ID=SA, PROD_TYPE=null, GENDER=男, TELPHONE=null, ID=666666, CREATE_TIME=2016-12-13 23:54:35.0, UUID=863817036025149, REMARK=测试账号, COMPETENCY=null, QQ=null, EMERGENCY_CONTACT=null, ONLINE_FLAG=null, NATIONAL=null, UPDATE_USER=100000, CONFIRM_TIME=2016-12-19 09:15:10.0, USER_NAME=King, UPDATE_TIME=2017-08-30 11:04:04.0, HR_ID=null, PHOTO_NAME=group1/M11/55/AE/CgsLxVk2Hn6AKeL9AANFJEeS22Y23.Jpeg, COMPANY_NAME=null, EASE_MOB_NAME=null, IDENT=141023198202231927, PASSWORD=VFScGT1eH6U=, CITY=北京, DUTY=null, UPDATE_IP=10.10.72.79, DEVICE_NUMBER=190e35f7e07040bea94, PROVINCE=北京, DEGREE=null, WX_ATTENTION_FLAG=0, WORKING_DATE=null}], CONTRACTNO=14149441105}
+『正常测试』开始执行: <点击客户姓名为时雪的合同>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在审核中列界面,选择对应客户合同,点击该合同信息后,是否可以正常进入对应合同的订单详情界面>
+[Invoker 1072601481] Method case_30 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_31
+『正常测试』开始执行: <检查在订单详情界面,对应合同的订单编号是否显示正确>
+『正常测试』开始执行: <检查在订单详情界面,对应合同的订单状态是否显示正确>
+[Invoker 1072601481] Method case_31 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_32
+『正常测试』开始执行: <检查在订单详情界面,对应合同的商品名称是否显示正确>
+『正常测试』开始执行: <检查在订单详情界面,对应合同的商户名称是否显示正确>
+『正常测试』开始执行: <检查在订单详情界面,对应合同的贷款金额是否显示正确>
+『正常测试』开始执行: <检查在订单详情界面,对应合同的分期数是否显示正确>
+[Invoker 1072601481] Method case_32 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_33
+『正常测试』开始执行: <点击商品名称选项>
+『正常测试』开始执行: <检查在订单详情界面,点击对应合同的商品名称选项,是否可以正常进入商品详情界面>
+[Invoker 1072601481] Method case_33 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_34
+『正常测试』开始执行: <检查在商品详情界面,对应合同的商品小类是否显示正确>
+『正常测试』开始执行: <检查在商品详情界面,对应合同的商品品牌是否显示正确>
+『正常测试』开始执行: <检查在商品详情界面,对应合同的商品型号是否显示正确>
+『正常测试』开始执行: <检查在商品详情界面,对应合同的商品价格是否显示正确>
+『正常测试』开始执行: <检查在商品详情界面,对应合同的商品型号是否显示正确>
+『正常测试』开始执行: <检查在商品详情界面,对应合同的服务合同是否显示正确>
+『正常测试』开始执行: <检查在商品详情界面,对应合同的商品总额是否显示正确>
+『正常测试』开始执行: <检查在商品详情界面,对应合同的首付总额是否显示正确>
+[Invoker 1072601481] Method case_34 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_35
+『正常测试』开始执行: <点击返回按钮1次,返回至订单详情界面>
+『正常测试』开始执行: <点击分期数选项>
+『正常测试』开始执行: <检查在订单详情界面,点击对应合同的分期数选项,是否可以正常进入每月还款界面>
+[Invoker 1072601481] Method case_35 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_36
+『正常测试』开始执行: <检查在每月还款界面,对应合同的贷款金额是否显示正确>
+『正常测试』开始执行: <检查在每月还款界面,对应合同的分期期数是否显示正确>
+『正常测试』开始执行: <检查在每月还款界面,对应合同的首次还款日是否显示正确>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动2次>
+『正常测试』开始执行: <检查在每月还款界面,对应合同的期数序号是否显示正确>
+『正常测试』开始执行: <检查在每月还款界面,对应合同的每期还款金额是否显示正确>
+『正常测试』开始执行: <检查在商品详情界面,对应合同的还款日是否显示正确>
+[Invoker 1072601481] Method case_36 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_37
+『正常测试』开始执行: <点击返回按钮1次,返回至订单详情界面>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动2次>
+『正常测试』开始执行: <检查在订单详情界面,对应合同的客户姓名是否显示正确>
+『正常测试』开始执行: <检查在订单详情界面,对应合同的手机号码是否显示正确>
+『正常测试』开始执行: <检查在订单详情界面,对应合同的身份证号是否显示正确>
+[Invoker 1072601481] Method case_37 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_38
+『正常测试』开始执行: <点击客户资料选项>
+『正常测试』开始执行: <检查在订单详情界面,点击对应合同的客户资料选项,是否可以正常进入客户信息界面>
+[Invoker 1072601481] Method case_38 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_39
+『正常测试』开始执行: <检查在客户信息界面,对应合同的客户姓名是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的身份证号是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的居住地址是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的身份证有效期是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的教育程度是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的个人月收入总额是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的个人月支出是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的家庭月收入是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的手机号是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的常用QQ号是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的微信号是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的现居住地址是否显示正确>
+[Invoker 1072601481] Method case_39 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_40
+『正常测试』开始执行: <检查在客户信息界面,对应合同的客户姓名是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的婚姻情况是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的子女数目是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的家庭电话是否显示正确>
+[Invoker 1072601481] Method case_40 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_41
+『正常测试』开始执行: <以每次500毫秒的时间,根据指定坐标,向上滑动1次>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的单位名称是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的单位地址是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的单位电话是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的单位性质是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的行业类别是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的任职部门是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的职位是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的工作年限是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的入职时间是否显示正确>
+[Invoker 1072601481] Method case_41 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_42
+『正常测试』开始执行: <检查在客户信息界面,对应合同的联系人一姓名是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的联系人一联系电话是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的联系人一与本人关系是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的联系人二姓名是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的联系人二联系电话是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的联系人二与本人关系是否显示正确>
+[Invoker 1072601481] Method case_42 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_43
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动2次>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的银行卡号是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的开户行是否显示正确>
+『正常测试』开始执行: <检查在客户信息界面,对应合同的开户行省/市是否显示正确>
+『发现问题』开始执行: <截图操作,保存目录为[Screenshot_Bug\case_43_开户行省_市.png]>
+[Invoker 1072601481] Method case_43 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_44
+『正常测试』开始执行: <点击返回按钮2次,返回至审核中列界面>
+『正常测试』开始执行: update cs_credit set status='n' where CONTRACT_NO = ${contractNo} <进行数据库操作,修改当前合同状态为审核通过状态>
+『正常测试』开始执行: <以每次500毫秒的时间,向下滑动1次,实现刷新功能>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <点击审核通过列>
+『正常测试』开始执行: <以每次500毫秒的时间,向下滑动1次,实现刷新功能>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在审核中列界面,进入数据库修改对应合同状态为审核通过后,是否可以自动改变合同状态并进入审核通过列>
+[Invoker 1072601481] Method case_44 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_45
+『正常测试』开始执行: <点击补传资料按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在审核通过列界面,选择对应合同点击补传资料按钮,是否可以正常进入补传资料界面>
+[Invoker 1072601481] Method case_45 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_46
+『正常测试』开始执行: <输入手机串码>
+『正常测试』开始执行: <点击上传IMEI码照片第一个选项>
+『正常测试』开始执行: <点击拍照按钮>
+『正常测试』开始执行: <强制等待2秒>
+『正常测试』开始执行: <点击拍照确定按钮>
+『正常测试』开始执行: <强制等待2秒>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动1次>
+『正常测试』开始执行: <点击确认提交按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在补传资料界面,输入上传对应手机串号和IMEI码照片,点击确认提交按钮后,是否可以正常提交并返回审核通过列界面,且出现确认注册按钮>
+[Invoker 1072601481] Method case_46 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_47
+『正常测试』开始执行: <点击签字按钮>
+『正常测试』开始执行: <检查在审核通过列界面,点击签字按钮后,是否可以正常进入短信签章界面>
+[Invoker 1072601481] Method case_47 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_48
+『正常测试』开始执行: <检查在短信签章界面,对应用户姓名是否显示正确>
+『正常测试』开始执行: <检查在短信签章界面,对应用户合同号是否显示正确>
+『正常测试』开始执行: <检查在短信签章界面,对应用户手机号是否显示正确>
+[Invoker 1072601481] Method case_48 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_49
+『正常测试』开始执行: <点击获取验证码按钮>
+『正常测试』开始执行: <强制等待5秒>
+『正常测试』开始执行: select MSG_CODE from dafy_sales.sign_sms_result where contract_no=${contractNo} order by send_time desc <进行数据库操作,根据合同号查询签章验证码信息,并保存记录到本地>
+『正常测试』开始执行: <输入短信验证码>
+『正常测试』开始执行: <点击确认提交按钮>
+『正常测试』开始执行: <隐性等待20秒>
+『正常测试』开始执行: <点击确认按钮>
+『正常测试』开始执行: <检查在短信签章界面,点击获取验证码按钮后,可以正常发送且输入对应验证码后,是否可以正常提交成功并返回审核通过列界面,且出现绑定微信按钮>
+[Invoker 1072601481] Method case_49 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_50
+『正常测试』开始执行: <强制等待60秒>
+『正常测试』开始执行: <以每次500毫秒的时间,向下滑动1次,实现刷新功能>
+『正常测试』开始执行: <点击客户姓名为时雪的合同>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动2次>
+『正常测试』开始执行: <点击签字预览选项>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在PDF列表界面,签章类型是否显示正确>
+『正常测试』开始执行: <检查在PDF列表界面,商品分期确认书PDF合同是否正常生成>
+『正常测试』开始执行: <检查在PDF列表界面,消费贷款申请表PDF合同是否正常生成>
+『正常测试』开始执行: <检查在PDF列表界面,服务须知PDF合同是否正常生成>
+『正常测试』开始执行: <检查在PDF列表界面,贷款PDF合同是否正常生成>
+『正常测试』开始执行: <检查在PDF列表界面,还款须知PDF合同是否正常生成>
+『正常测试』开始执行: <检查在PDF列表界面,消费咨询服务合同PDF合同是否正常生成>
+『正常测试』开始执行: <检查在PDF列表界面,参保须知PDF合同是否正常生成>
+[Invoker 1072601481] Method case_50 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_51
+『正常测试』开始执行: <点击返回按钮2次,返回至审核通过列界面>
+『正常测试』开始执行: <点击确认注册按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <点击已注册列>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <以每次500毫秒的时间,向下滑动1次,实现刷新功能>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在审核通过列界面,点击确认注册按钮后,是否可以正常注册成功,且改变合同状态为已注册>
+[Invoker 1072601481] Method case_51 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_52
+『正常测试』开始执行: {call PRC_AUTO_DAILY_lzzy(?,?)}14149441105 <进行数据库操作,根据合同号执行存储过程自动改变合同状态为现行>
+『正常测试』开始执行: <点击现行列>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <以每次500毫秒的时间,向下滑动1次,实现刷新功能>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在已注册列界面,进入数据库根据合同ID执行存储过程后,是否可以自动改变合同状态并进入现行列>
+[Invoker 1072601481] Method case_52 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_PPM_Mobile_Series_A.case_53
+『正常测试』开始执行: select CREDIT_MODEL from cs_credit where CONTRACT_NO= ${contractNo} <进行数据库操作,根据合同号查询合同模式信息,并保存记录到本地>
+『正常测试』开始执行: <检查在现行列界面,进入数据库根据合同号查询后,该合同是否属于P2P_PPM合作模式>
+[Invoker 1072601481] Method case_53 completed within the time-out 6000000
+[Invoker 1072601481] Invoking @AfterTest P2P_PPM_Mobile_Series_A.And()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95]
+『测试结束』开始执行: <退出并卸载App>
+===== Invoked methods
+  P2P_PPM_Mobile_Series_A.stup()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.Precondition()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case1()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case2()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case3()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case4()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case5()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case6()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case7()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case8()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case9()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_10()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_11()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_12()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_13()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_14()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_15()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_16()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_17()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_18()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_19()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_20()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_21()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_22()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_23()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_24()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_25()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_26()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_27()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_28()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_29()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_30()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_31()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_32()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_33()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_34()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_35()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_36()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_37()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_38()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_39()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_40()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_41()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_42()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_43()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_44()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_45()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_46()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_47()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_48()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_49()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_50()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_51()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_52()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+    P2P_PPM_Mobile_Series_A.case_53()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+  P2P_PPM_Mobile_Series_A.And()[pri:0, instance:TestCases.P2P_PPM_Mobile_Series_A@6093dd95] 1620303253
+=====
+PASSED: Precondition
+PASSED: case1
+PASSED: case2
+PASSED: case3
+PASSED: case4
+PASSED: case5
+PASSED: case6
+PASSED: case7
+PASSED: case8
+PASSED: case9
+PASSED: case_10
+PASSED: case_11
+PASSED: case_12
+PASSED: case_13
+PASSED: case_14
+PASSED: case_15
+PASSED: case_16
+PASSED: case_17
+PASSED: case_18
+PASSED: case_19
+PASSED: case_20
+PASSED: case_21
+PASSED: case_22
+PASSED: case_23
+PASSED: case_24
+PASSED: case_25
+PASSED: case_26
+PASSED: case_27
+PASSED: case_28
+PASSED: case_29
+PASSED: case_30
+PASSED: case_31
+PASSED: case_32
+PASSED: case_33
+PASSED: case_34
+PASSED: case_35
+PASSED: case_36
+PASSED: case_37
+PASSED: case_38
+PASSED: case_39
+PASSED: case_40
+PASSED: case_41
+PASSED: case_42
+PASSED: case_44
+PASSED: case_45
+PASSED: case_46
+PASSED: case_47
+PASSED: case_48
+PASSED: case_49
+PASSED: case_50
+PASSED: case_51
+PASSED: case_52
+PASSED: case_53
+FAILED: case_43
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor23.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.dafycredit.giveu.test.service.RunUnitService.runCase(RunUnitService.java:98)
+	at TestCases.P2P_PPM_Mobile_Series_A.case_43(P2P_PPM_Mobile_Series_A.java:294)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.InvokeMethodRunnable.runOne(InvokeMethodRunnable.java:54)
+	at org.testng.internal.InvokeMethodRunnable.run(InvokeMethodRunnable.java:44)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.lang.AssertionError: 开户行省/市显示错误(实际结果和预期结果不一致)  Actual 【nullnull】  but found 【湖北省襄阳市】
+	at org.testng.Assert.fail(Assert.java:94)
+	at com.dafycredit.giveu.test.handler.CheckActionHandler.checkEquals(CheckActionHandler.java:103)
+	at com.dafycredit.giveu.test.handler.CheckActionHandler.check(CheckActionHandler.java:40)
+	... 17 more
+
+
+===============================================
+    P2P_PPM模式下-用户购买A系列手机
+    Tests run: 54, Failures: 1, Skips: 0
+===============================================
+
+[TestRunner] Running test P2P_TBJ模式下-用户购买B系列手机 on 1  classes,  included groups:[] excluded groups:[]
+===== Test class
+TestCases.P2P_TBJ_Mobile_Series_B
+    @Test P2P_TBJ_Mobile_Series_B.case_14()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_15()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_12()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_13()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_18()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_19()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.Precondition()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_16()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_17()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_50()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_51()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_10()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_11()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_52()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_53()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_25()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case1()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_26()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_23()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case2()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_24()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case3()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case4()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_29()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case5()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case6()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_27()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_28()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case7()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case8()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case9()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_21()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_22()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_20()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_36()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_37()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_34()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_35()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_38()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_39()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_32()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_33()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_30()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_31()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_47()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_48()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_45()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_46()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_49()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_40()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_43()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_44()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_41()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+    @Test P2P_TBJ_Mobile_Series_B.case_42()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+======
+[Invoker 1072601481] Invoking @BeforeTest P2P_TBJ_Mobile_Series_B.stup()[pri:0, instance:TestCases.P2P_TBJ_Mobile_Series_B@6eebc39e]
+-----------------------------------【P2P_铜板街模式下购买手机系列B产品的测试场景点】-----------------------------------
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.Precondition
+『正常测试』开始执行: update cs_credit set STATUS='t' where ID_PERSON=14149441 <进行数据库操作,修改当前用户所有的合同为取消状态>
+『正常测试』开始执行: delete cs_creditmodel_city where city in('其他','北京','') and is_wallet=0 <进行数据库操作,删除当前用户对应城市所绑定的合同模式,实现解绑操作>
+『正常测试』开始执行: insert into cs_creditmodel_city(city,credit_model,status,update_user,update_time,is_wallet) values('北京','P2P_TBJ',1,100000,sysdate,0) <进行数据库操作,插入当前用户对应城市所绑定的合同模式,实现绑定操作>
+『正常测试』开始执行: delete from dafy_sales.cs_contact where ID_PERSON=14149441 <进行数据库操作,删除当前用户之前提单所填写的家庭联系人信息>
+『正常测试』开始执行: delete from dafy_sales.Cs_Other_person where ID_PERSON=14149441 <进行数据库操作,删除当前用户之前提单所填写的其他联系人信息>
+[Invoker 1072601481] Method Precondition completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case1
+『正常测试』开始执行: <以每次500毫秒的时间,向左滑动3次至引导页最后一页>
+『正常测试』开始执行: <检查首次启动即有宝APP向左滑动三次引导页后,是否成功进入引导页最后一页>
+[Invoker 1072601481] Method case1 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case2
+『正常测试』开始执行: <点击开始体验按钮>
+『正常测试』开始执行: <检查在引导页最后一页点击开始体验按钮后,是否成功进入登录界面>
+[Invoker 1072601481] Method case2 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case3
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <检查在登录界面,输入账号和密码都为空,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case3 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case4
+『正常测试』开始执行: <输入正确登录账号>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号,密码为空,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case4 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case5
+『正常测试』开始执行: <清空登录账号>
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <检查在登录界面,输入账号为空,正确的密码,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case5 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case6
+『正常测试』开始执行: <输入正确登录账号>
+『正常测试』开始执行: <清空登录密码>
+『正常测试』开始执行: <输入错误登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <点击网络或卫星定位权限的允许按钮>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号,错误的密码,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case6 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case7
+『正常测试』开始执行: <清空登录账号>
+『正常测试』开始执行: <输入错误登录账号>
+『正常测试』开始执行: <清空登录密码>
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在登录界面,输入错误的账号,正确的密码,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case7 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case8
+『正常测试』开始执行: <清空登录账号>
+『正常测试』开始执行: <输入错误登录账号>
+『正常测试』开始执行: <清空登录密码>
+『正常测试』开始执行: <输入错误登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在登录界面,输入错误的账号,错误的密码,点击登录按钮后,是否依然停留在登录界面并弹出对应提示>
+[Invoker 1072601481] Method case8 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case9
+『正常测试』开始执行: <清空登录账号>
+『正常测试』开始执行: <输入正确登录账号>
+『正常测试』开始执行: <清空登录密码>
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <打开Androud系统通知栏>
+『正常测试』开始执行: <启动飞行模式,关闭网络>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号和密码,未连接网络时,点击登录按钮后,是否可以弹出对应提示>
+[Invoker 1072601481] Method case9 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_10
+『正常测试』开始执行: <点击取消按钮>
+『正常测试』开始执行: <点击Android系统Hmoe键,返回主界面>
+『正常测试』开始执行: <打开Androud系统通知栏>
+『正常测试』开始执行: <关闭飞行模式,启用网络>
+『正常测试』开始执行: <强制等待1秒>
+『正常测试』开始执行: <以每次500毫秒的时间,向右滑动1次>
+『正常测试』开始执行: <点击一键清理>
+『正常测试』开始执行: <强制等待1秒>
+『正常测试』开始执行: <点击安全中心>
+『正常测试』开始执行: <点击授权管理>
+『正常测试』开始执行: <点击应用权限管理>
+『正常测试』开始执行: <点击即有宝>
+『正常测试』开始执行: <点击定位选项>
+『正常测试』开始执行: <点击拒绝>
+『正常测试』开始执行: <点击返回按钮3次,返回至安全中心界面>
+『正常测试』开始执行: <点击Android系统Hmoe键,返回主界面>
+『正常测试』开始执行: <以每次500毫秒的时间,向左滑动1次>
+『正常测试』开始执行: <点击即有宝APP>
+『正常测试』开始执行: <输入正确登录账号>
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待50秒>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号和密码,未开启GPS定位权限时,点击登录按钮后,是否可以弹出对应提示>
+[Invoker 1072601481] Method case_10 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_11
+『正常测试』开始执行: <点击权限设置>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动2次>
+『正常测试』开始执行: <点击权限管理>
+『正常测试』开始执行: <点击定位>
+『正常测试』开始执行: <点击允许>
+『正常测试』开始执行: <点击返回按钮2次,返回至登录界面>
+『正常测试』开始执行: <点击登录按钮>
+『正常测试』开始执行: <隐性等待30秒>
+『正常测试』开始执行: <检查在登录界面,输入正确的账号和密码,已连接网络和开启GPS定位权限时,点击登录按钮后,是否可以正常登录并进入设置解锁密码界面>
+[Invoker 1072601481] Method case_11 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_12
+『正常测试』开始执行: <点击暂不按钮>
+『正常测试』开始执行: <点击授权提示的确定按钮>
+『正常测试』开始执行: <点击通讯录权限的允许按钮>
+『正常测试』开始执行: <点击返回按钮2次,退出即有宝APP>
+『正常测试』开始执行: <点击即有宝APP>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查验证即有宝APP退出关闭后,下次启动时,是否可以正常进入解锁界面>
+[Invoker 1072601481] Method case_12 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_13
+『正常测试』开始执行: <输入正确登录密码>
+『正常测试』开始执行: <点击确定按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在解锁界面,输入对应用户的登录密码,点击确定按钮后,是否可以正常进入新建订单界面>
+[Invoker 1072601481] Method case_13 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_14
+『正常测试』开始执行: select * from sys_user_list where ID='666666' <进行数据库操作,根据用户ID查询用户信息,并保存记录到本地>
+『正常测试』开始执行: <检查在数据库中,对应的用户密码是否经过加密处理并显示为暗文,且具备安全特性>
+[Invoker 1072601481] Method case_14 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_15
+『正常测试』开始执行: <点击商品门店选项>
+『正常测试』开始执行: <选择安科达科技有限公司商品门店>
+『正常测试』开始执行: <点击商品类型选项>
+『正常测试』开始执行: <选择手机>
+『正常测试』开始执行: <点击产品版本选项>
+『正常测试』开始执行: <选择系列B>
+『正常测试』开始执行: <点击产品类型选项>
+『正常测试』开始执行: <选择非学生产品>
+『正常测试』开始执行: <输入商品总额5000>
+『正常测试』开始执行: <输入首付总额2000>
+『正常测试』开始执行: <点击下一步按钮>
+『正常测试』开始执行: <隐性等待10秒>
+『正常测试』开始执行: <检查在新建订单界面,选择输入对应产品信息,点击下一步按钮后,是否可以正常进入产品列表界面>
+[Invoker 1072601481] Method case_15 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_16
+『正常测试』开始执行: <检查在产品列表界面,对应贷款金额是否显示正确>
+『正常测试』开始执行: <检查在产品列表界面,对应保险费用是否显示正确>
+『正常测试』开始执行: <检查在产品列表界面,对应权益包费用是否显示正确>
+『正常测试』开始执行: <以每次500毫秒的时间,向上滑动1次>
+『正常测试』开始执行: <检查在产品列表界面,选择分期栏下对应分期数是否显示正确>
+『正常测试』开始执行: <检查在产品列表界面,选择分期栏下对应每期应还金额是否显示正确>
+『正常测试』开始执行: <检查在产品列表界面,选择分期栏下对应产品代码是否显示正确>
+『发现问题』开始执行: <截图操作,保存目录为[Screenshot_Bug\case_16_产品代码.png]>
+[Invoker 1072601481] Method case_16 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_17
+[Invoker 1072601481] Method case_17 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_18
+『正常测试』开始执行: <点击请拍摄身份证正面选项>
+[Invoker 1072601481] Method case_18 completed within the time-out 6000000
+[Invoker 1072601481] Invoking TestCases.P2P_TBJ_Mobile_Series_B.case_19
+『正常测试』开始执行: <点击现居住市县选项>

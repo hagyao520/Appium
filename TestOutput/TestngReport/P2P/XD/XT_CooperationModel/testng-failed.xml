@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite configfailurepolicy="continue" name="Failed suite [P2P/XD/XT_CooperationModel]">
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+    <listener class-name="com.dafycredit.giveu.test.service.ExtentReportGenerateService"/>
+  </listeners>
+  <test thread-count="5" verbose="3" name="P2P_DR模式下购买手机系列A产品的测试场景点" time-out="6000000">
+    <classes>
+      <class name="JYBTestCases.P2P_DR_Mobile_SeriesA"/>
+    </classes>
+  </test> <!-- P2P_DR模式下购买手机系列A产品的测试场景点 -->
+  <test name="P2P_DR模式下购买手机系列A产品的测试场景点(failed)">
+    <classes>
+      <class name="JYBTestCases.P2P_DR_Mobile_SeriesA">
+        <methods>
+          <include name="TearDown"/>
+          <include name="Precondition"/>
+          <include name="stup"/>
+        </methods>
+      </class> <!-- JYBTestCases.P2P_DR_Mobile_SeriesA -->
+    </classes>
+  </test> <!-- P2P_DR模式下购买手机系列A产品的测试场景点(failed) -->
+</suite> <!-- Failed suite [P2P/XD/XT_CooperationModel] -->

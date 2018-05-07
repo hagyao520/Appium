@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<unit id="WeChatLogin" desc="微信登录流程的测试场景点">
+
+    <case 
+        id="case1" 
+        name="验证在Android系统中，首次启动微信APP，点击登录按钮后，可以正常进入登录界面">
+        <step action="wait-forced" value="6000" desc="强制等待5秒"/>
+        <step action="android-click" locator="resource-id=com.tencent.mm:id/ca4" desc="点击登录按钮"/>    
+        <step action="android-check" locator="resource-id=com.tencent.mm:id/a_m" expect="登录" message="进入登录界面失败(实际结果和预期结果不一致)" caseid="Case1" desc="检查在Android系统中，首次启动微信APP，点击登录按钮后，可以正常进入登录界面"/>
+    </case>
+
+    <case 
+         id="case2" 
+        name="验证在登录界面，输入正确的手机号和密码，点击登录按钮后，可以正常登录成功，并跳转至首页主界面">
+        <step action="android-input" locator="text=你的手机号码" value="XXX" desc="输入正确的手机号"/>
+        <step action="android-input" locator="resource-id=com.tencent.mm:id/g_" value="XXX" desc="输入正确的密码"/>
+        <step action="android-click" locator="text=登录" desc="点击登录按钮"/>
+        <step action="android-check" locator="text=通讯录" expect="通讯录"  message="登录失败(实际结果和预期结果不一致)" caseid="Case3" desc="检查在登录界面，输入正确的手机号和密码，点击登录按钮后，可以正常登录成功，并跳转至首页主界面"/>    
+    </case>
+</unit>

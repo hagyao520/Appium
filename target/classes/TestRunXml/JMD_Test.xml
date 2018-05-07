@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="P2P/XD/XT_CooperationModel" parallel="false" configfailurepolicy ="continue">
+    <!---->
+    <test name="P2P_DR模式下购买手机系列A产品的测试场景点" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="6000000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
+        <classes>
+            <class name="TestCases.P2P_DR_Mobile_SeriesA"/>
+        </classes>
+    </test>
+    <!--—————————————————————————————————————————————————-->
+    <!---->
+    <test name="P2P_PPM模式下购买手机系列A产品的测试场景点" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="6000000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
+        <classes>
+            <class name="TestCases.P2P_PPM_Mobile_SeriesA"/>
+        </classes>
+    </test>
+    <!--—————————————————————————————————————————————————-->
+    <!---->
+    <test name="P2P_TBJ模式下购买手机系列B产品的测试场景点" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="6000000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
+        <classes>
+            <class name="TestCases.P2P_TBJ_Mobile_SeriesB"/>
+        </classes>
+    </test>
+    <!--—————————————————————————————————————————————————-->
+    <!---->
+    <test name="P2P_WCW模式下购买手机系列B产品的测试场景点" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="6000000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
+        <classes>
+            <class name="TestCases.P2P_WCW_Mobile_SeriesB"/>
+        </classes>
+    </test>
+    <!--—————————————————————————————————————————————————-->
+    <!---->
+    <test name="XD_ASD模式下购买0首付促销产品的测试场景点" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="6000000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
+        <classes>
+            <class name="TestCases.XD_ASD_Mobile_ZeroDownPaymentPromotion"/>
+        </classes>
+    </test>
+    <!--—————————————————————————————————————————————————-->
+    <!---->
+    <test name="XT_JH模式下购买0首付促销产品的测试场景点" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="6000000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
+        <classes>
+            <class name="TestCases.XT_JH_Mobile_ZeroDownPaymentPromotion"/>
+        </classes>
+    </test>
+    <!--—————————————————————————————————————————————————-->
+    <!-- 调用的监听 -->    
+    <listeners>
+        <listener class-name="org.uncommons.reportng.HTMLReporter" />
+        <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+        <!--"org.testng.internal org.testng.TestRunner org.testng.SuiteRunner org.testng.remote.RemoteTestNG org.testng.TestNG sun.reflect java.lang"--> 
+        <!--"org.testng.reporters.EmailableReporter2,org.testng.reporters.jq.Main,org.testng.reporters.SuiteHTMLReporter,org.testng.reporters.XMLReporter,org.testng.reporters.JUnitReportReporter"--> 
+    </listeners>      
+</suite>

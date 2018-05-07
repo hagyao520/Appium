@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="P2P_PPM模式下-用户购买A系列手机"
+           tests="27"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="579.646">
+  <properties />
+  
+  
+            <testcase name="case_14" time="2.342" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case7" time="72.187" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case1" time="2.797" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_18" time="5.975" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_17" time="2.832" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_20" time="19.912" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_21" time="1.970" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="Precondition" time="0.977" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_10" time="43.290" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case8" time="92.478" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_26" time="0.523" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_12" time="10.368" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case3" time="17.484" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case4" time="31.552" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_15" time="33.534" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_11" time="37.962" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_22" time="16.197" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_25" time="4.316" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_16" time="8.302" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case2" time="1.730" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case5" time="4.027" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_24" time="8.121" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case9" time="68.045" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_13" time="1.592" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_19" time="2.256" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case_23" time="71.736" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+                <testcase name="case6" time="17.141" classname="TestCases.P2P_PPM_Mobile_SeriesA" />
+      
+</testsuite>

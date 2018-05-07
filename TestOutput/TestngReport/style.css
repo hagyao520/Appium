@@ -1,0 +1,43 @@
+
+                    .testMethodStatusCONF { display: none; }
+                
+                    .testMethodStatusFAIL { background-color: #FFBBBB; }
+                
+                    .testMethodStatusPASS { background-color: lightgreen; }
+                
+                    .testMethodStatusSKIP { background-color: #FFFFBB; }
+                
+
+            
+            body { font-family: Arial, sans-serif; font-size: 12px; padding: 10px; margin: 0px; background-color: white; }
+            a, a:hover, a:active, a:visited { color: navy; }
+
+            .suiteMenuHeader { margin-top: 10px; }
+            .suiteMenuHeader td { padding: 5px; background-color: #e0e0e0; font-size: 12px; width: 100%; vertical-align: top; }
+
+            .suiteStatusPass, .suiteStatusFail { padding-right: 20px; width: 20px; height: 20px; margin: 2px 4px 2px 2px; display: inline; }
+            .suiteStatusPass { background-color: green; }
+            .suiteStatusFail { background-color: red; }
+
+            .testCaseLink, .testCaseLinkSelected { margin-top: 2px; padding: 4px; cursor: pointer; }
+            .testCaseLink { background-color: #f6f6f6; }
+            .testCaseLinkSelected { background-color: lightblue; border: 1px solid gray;  padding: 3px; }
+            .testCaseFail, .testCasePass, .testCaseSkip { padding-right: 15px; width: 15px; height: 15px; margin: 2px 4px 2px 2px; display: inline; }
+            .testCaseFail { background-color: red; }
+            .testCasePass { background-color: green; }
+            .testCaseSkip { background-color: yellow; }
+
+            tr.methodsTableHeader { background-color: #eaf0f7; font-weight: bold; }
+            tr.methodsTableHeader td { padding: 3px; }
+
+            .testMethodStatusFAIL a, .testMethodStatusPASS a, .testMethodStatusSKIP a { color:navy; text-decoration: none; cursor: pointer; }
+            .testMethodStatusFAIL td, .testMethodStatusPASS td, .testMethodStatusSKIP td { padding: 3px; }
+
+            .testMethodDetails, .testMethodDetailsVisible { padding: 5px; background-color: #f5f5f5; margin: 1px; }
+            .testMethodDetails { display: none; }
+
+            .testMethodsTable { margin-top: 10px; font-size: 12px; }
+            .testMethodsTable td { border-width: 1px 0 0 1px; border-color: white; border-style:solid; }
+            .testMethodsTable .testMethodStatusCONF td.firstMethodCell { border-left: 5px solid gray; }
+            
+        

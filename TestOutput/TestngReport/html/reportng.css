@@ -1,0 +1,78 @@
+*                        {padding: 0; margin: 0;}
+a                        {color: #006699;}
+a:visited                {color: #003366;}
+body                     {font-family: Lucida Sans Unicode, Lucida Grande, sans-serif; line-height: 1.8em; font-size: 62.5%; margin: 1.8em 1em;}
+h1                       {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 2.7em; margin-bottom: 0.6667em;}
+h2                       {font-family: Arial, Helvetica, sans-serif; font-weight: bold; font-size: 1.8em; margin-bottom: 0;}
+p                        {font-size: 1.3em;}
+td                       {font-size: 1.3em;}
+
+.header                  {font-size: 1.4em; font-weight: bold; text-align: left;}
+.passed                  {background-color: #44aa44;}
+.skipped                 {background-color: #ffaa00;}
+.failed                  {background-color: #ff4444;}
+.failedConfig            {background-color: #800000; color: #ffffff}
+.skippedConfig           {background-color: #cc6600; color: #ffffff}
+.totalLabel              {font-weight: bold; background-color: #ffffff;}
+
+.suite                   {background-color: #999999; font-weight: bold;}
+.test                    {background-color: #eeeeee; padding-left: 2em;}
+.test .passed            {background-color: #88ee88;}
+.test .skipped           {background-color: #ffff77;}
+.test .failed            {background-color: #ff8888;}
+.group                   {background-color: #cccccc; color: #000000; font-weight: bold;}
+.suiteLinks              {float: right; font-weight: normal; vertical-align: middle;}
+.suiteLinks a            {color: #ffffff; margin-left: .5em;}
+.passRate                {font-weight: bold; text-align: right;}
+.duration                {text-align: right;}
+.thread                  {white-space: nowrap;}
+
+.resultsTable            {border: 0; width: 100%; margin-top: 1.8em; line-height: 1.7em; border-spacing: 0.1em;}
+.resultsTable .method    {width: 18em;}
+.resultsTable .duration  {width: 6em;}
+.resultsTable td         {vertical-align: top; padding: 0 1em;}
+.resultsTable th         {padding: 0 .5em;}
+.number                  {text-align: right;}
+.zero                    {font-weight: normal;}
+.columnHeadings          {font-size: 1em;}
+.columnHeadings th       {font-weight: normal;}
+
+.configTable             {border: 1px solid #800000; color: #800000; margin-bottom: 1.5em;}
+
+#sidebarHeader           {padding: 1.8em 1em; margin: 0 -1em 1.8em -1em;}
+#suites                  {line-height: 1.7em; border-spacing: 0.1em; width: 100%;}
+.tests                   {display: table-row-group;}
+.header.suite            {cursor: pointer; clear: right; height: 1.214em; margin-top: 1px;}
+div.test                 {margin-top: 0.1em; clear: right; font-size: 1.3em;}
+
+/* The +/- toggle used in the navigation frame. */
+.toggle                  {font-family: monospace; font-weight: bold; padding-left: 2px; padding-right: 5px; color: #777777;}
+.successIndicator        {float: right; font-family: monospace; font-weight: bold; padding-right: 2px; color: #44aa44;}
+.skipIndicator           {float: right; font-family: monospace; font-weight: bold; padding-right: 2px; color: #ffaa00;}
+.failureIndicator        {float: right; font-family: monospace; font-weight: bold; padding-right: 2px; color: #ff4444;}
+
+
+/* These classes are for information about an individual test result. */
+.result                  {font-size: 1.1em; vertical-align: middle;}
+.dependency              {font-family: Lucida Console, Monaco, Courier New, monospace; font-weight: bold;}
+.arguments               {font-family: Lucida Console, Monaco, Courier New, monospace; font-weight: bold;}
+.testOutput              {font-family: Lucida Console, Monaco, Courier New, monospace; color: #666666;}
+.stackTrace              {font-size: 0.9em; line-height: 1.2em; margin-left: 2em; display: none;}
+.stackTrace .stackTrace  {font-size: inherit;}
+
+.description             {border-bottom: 1px dotted #006699;}
+
+#meta                    {font-size: 1em; text-align: right; float: right;}
+#systemInfo              {color: #666666;}
+
+/* Reporter log output (individual test ouput is style by "testOutput" above). */
+#log                     {font-family: Lucida Console, Monaco, Courier New, monospace; font-size: 1.3em; margin-top: 1.8em;}
+
+.overviewTable           {width: 100%; margin-top: 1.8em; line-height: 1.7em; border-spacing: 0.1em;}
+.overviewTable td        {padding: 0 1em;}
+.overviewTable th        {padding: 0 .5em;}
+.overviewTable .duration {width: 6em;}
+.overviewTable .passRate {width: 6em;}
+.overviewTable .number   {width: 5em;}
+.overviewTable tr        {height: 1.6em;}
+

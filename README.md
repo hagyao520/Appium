@@ -116,7 +116,7 @@
        <case>到</case>之间的内容为单个测试脚本，相当与单个测试用例，id对应测试用例中的序号，name对应测试用例中的标题，注意这里的id需要和测试类（WeChatLogin.java）中的一致
        <step>到</step>之间的内容为测试脚本步骤，相当与测试用例操作步骤，action=要执行的操作，locator=元素的坐标属性及值，value=需要传递的参数，desc=该步骤的备注，会打印到控制台，expect=预期结果，message=测试执行失败的提示信息，会展示到测试报告中，caseid=测试用例失败截图的名称，一般和Caseid一致，表示是该用例的截图
 
-  - 具体脚本编方法请参考:[https://pan.baidu.com/s/1fdMMGrr9XY6lJdXCv-1AYw]
+  - 具体脚本编方法请参考: https://pan.baidu.com/s/1fdMMGrr9XY6lJdXCv-1AYw
 
 ### 三、Appium服务配置
     public static void appiumConfigure() throws Exception {
@@ -190,7 +190,7 @@
 ### 五、测试报告
  - 测试报告分为两种，一种是TestNG自带的TestngReport测试报告，另外一种则是调用ExtentReports生成的报告，第二种更加美观
 
-### TestngReport
+### [TestngReport](https://pan.baidu.com/s/1FfxTvZxmE-HY2KnsShL5tg)
     <?xml version="1.0" encoding="UTF-8"?>
     <suite name="Appium测试报告" parallel="false" configfailurepolicy ="continue">
         <test name="微信登录流程" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="60000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
@@ -211,7 +211,7 @@
         </listeners>      
     </suite>
 
-### ExtentReports
+### [ExtentReports](https://pan.baidu.com/s/1Gzdqdf0q2Q5yf_rytWmsdg)
     <?xml version="1.0" encoding="UTF-8"?>
     <suite name="Suite" verbose="1" preserve-order="true" parallel="false">
         <suite-files>

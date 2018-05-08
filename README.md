@@ -2,6 +2,8 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Appium
+![](https://static.oschina.net/uploads/space/2018/0508/142620_bvmG_3854545.png)
+
     Appium是一个移动端的自动化框架，可用于测试原生应用，移动网页应用和混合型应用，且是跨平台的，可用于IOS和Android以及Firefox OS的操作系统
         •  原生的应用是指用Android或IOS的SDK编写的应用，例如微信，QQ等APP
         •  移动网页应用是指网页应用，例如IOS中Safari，Chrome等浏览器的应用。
@@ -186,11 +188,12 @@
 
 ### 四、执行用例
  - 编写完对应测试用例类【WeChatLogin.java】，和测试脚本【WeChatLogin.xml】后，在IDE集成开发环境下选择WeChatLogin.java右键使用TestNG运行即可
+![](https://static.oschina.net/uploads/space/2018/0508/142703_CSZS_3854545.png)
 
 ### 五、测试报告
  - 测试报告分为两种，一种是TestNG自带的TestngReport测试报告，另外一种则是调用ExtentReports生成的报告，第二种更加美观
 
-### [TestngReport](https://pan.baidu.com/s/1FfxTvZxmE-HY2KnsShL5tg)
+### [TestngReport](https://static.oschina.net/uploads/space/2018/0508/141415_q7hQ_3854545.png)
     <?xml version="1.0" encoding="UTF-8"?>
     <suite name="Appium测试报告" parallel="false" configfailurepolicy ="continue">
         <test name="微信登录流程" junit="false" verbose="3" parallel="false" thread-count="5" annotations="javadoc" time-out="60000" enabled="true" skipfailedinvocationcounts="true" preserve-order="true" allow-return-values="true">
@@ -210,8 +213,9 @@
             <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
         </listeners>      
     </suite>
+![](https://static.oschina.net/uploads/space/2018/0508/141415_q7hQ_3854545.png)
 
-### [ExtentReports](https://pan.baidu.com/s/1Gzdqdf0q2Q5yf_rytWmsdg)
+### [ExtentReports](https://static.oschina.net/uploads/space/2018/0508/141802_q76M_3854545.png)
     <?xml version="1.0" encoding="UTF-8"?>
     <suite name="Suite" verbose="1" preserve-order="true" parallel="false">
         <suite-files>
@@ -223,12 +227,14 @@
         <!-- C:\Windows\System32\drivers\etc
         151.139.237.11    cdn.rawgit.com -->
     </suite>
+ ![](https://static.oschina.net/uploads/space/2018/0508/141802_q76M_3854545.png)
  - 第二种测种试报告，需要翻墙才能正常显示，否则页面显示乱码，因为是国外的东西
  - 或者在C:\Windows\System32\drivers\etc    host文件末尾添加151.139.237.11   cdn.rawgit.com
 
  ---
 ### 六、感谢
 #### 如果您觉得这个产品对您有用，您可以捐赠下我，让我有理由继续下去，非常感谢。
+![](https://static.oschina.net/uploads/space/2018/0508/150439_R9a6_3854545.png)
 
 非常感谢您花费时间阅读，祝您在这里记录、阅读、分享愉快！
 

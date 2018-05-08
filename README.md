@@ -49,7 +49,7 @@
 ### 注意事项
  - 工程项目编码需要设置成UTF-8，否则会出现中文乱码情况
 
-### 一、创建对象类，例如【WeChatLogin.java】
+### 一、创建测试对象类，例如【WeChatLogin.java】
     package TestCases;
 
     import org.testng.annotations.AfterTest;
@@ -232,6 +232,7 @@
 
 非常感谢您花费时间阅读，祝您在这里记录、阅读、分享愉快！
 
-作者：[@刘智King]            
+作者：@刘智King            
 QQ：1306086303             
 Email：hagyao520@163.com
+

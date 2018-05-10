@@ -2,7 +2,7 @@
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 ### Appium
-![](https://static.oschina.net/uploads/space/2018/0508/142620_bvmG_3854545.png)
+![](https://testerhome.com/uploads/photo/2018/27f5bcda-c947-48e5-8f9b-8e62c42c5a11.png!large)
 
     Appium是一个移动端的自动化框架，可用于测试原生应用，移动网页应用和混合型应用，且是跨平台的，可用于IOS和Android以及Firefox OS的操作系统
         •  原生的应用是指用Android或IOS的SDK编写的应用，例如微信，QQ等APP
@@ -188,7 +188,7 @@
 
 ### 四、执行用例
  - 编写完对应测试用例类【WeChatLogin.java】，和测试脚本【WeChatLogin.xml】后，在IDE集成开发环境下选择WeChatLogin.java右键使用TestNG运行即可
-![](https://static.oschina.net/uploads/space/2018/0508/142703_CSZS_3854545.png)
+![](https://testerhome.com/uploads/photo/2018/d50bb63a-c419-42d6-9606-cc587c219a3b.png!large)
 
 ### 五、测试报告
  - 测试报告分为两种，一种是TestNG自带的TestngReport测试报告，另外一种则是调用ExtentReports生成的报告，第二种更加美观
@@ -213,7 +213,7 @@
             <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
         </listeners>      
     </suite>
-![](https://static.oschina.net/uploads/space/2018/0508/141415_q7hQ_3854545.png)
+![](https://testerhome.com/uploads/photo/2018/7ed6f23c-6ede-4439-8dac-1a09a0885221.png!large)
 
 ### [ExtentReports](https://static.oschina.net/uploads/space/2018/0508/141802_q76M_3854545.png)
     <?xml version="1.0" encoding="UTF-8"?>
@@ -227,14 +227,13 @@
         <!-- C:\Windows\System32\drivers\etc
         151.139.237.11    cdn.rawgit.com -->
     </suite>
- ![](https://static.oschina.net/uploads/space/2018/0508/141802_q76M_3854545.png)
+ ![](https://testerhome.com/uploads/photo/2018/d0a65967-b63b-4a0a-acc5-dcd7e1988fce.png!large)
  - 第二种测种试报告，需要翻墙才能正常显示，否则页面显示乱码，因为是国外的东西
  - 或者在C:\Windows\System32\drivers\etc    host文件末尾添加151.139.237.11   cdn.rawgit.com
 
  ---
 ### 六、感谢
 #### 如果您觉得这个产品对您有用，您可以捐赠下我，让我有理由继续下去，非常感谢。
-![](https://static.oschina.net/uploads/space/2018/0508/150439_R9a6_3854545.png)
 ![](https://testerhome.com/uploads/photo/2018/26d494a6-7b4f-4b69-8db1-0a3b45f886b7.png!large)
 
 **非常感谢您花费时间阅读，祝您在这里记录、阅读、分享愉快！**
@@ -244,6 +243,5 @@
 QQ：1306086303     
 Email：hagyao520@163.com
 
-> QQ官方交流群 126325132
-<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=346d11a1a76d05086cd48bc8249126f514248479b50f96288189ab5ae0ca7ba5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="软件测试开发交流群" title="软件测试开发交流群"></a>
+> QQ官方交流群 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=346d11a1a76d05086cd48bc8249126f514248479b50f96288189ab5ae0ca7ba5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="126325132" title="126325132"></a>
 

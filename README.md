@@ -235,12 +235,15 @@
 ### 六、感谢
 #### 如果您觉得这个产品对您有用，您可以捐赠下我，让我有理由继续下去，非常感谢。
 ![](https://static.oschina.net/uploads/space/2018/0508/150439_R9a6_3854545.png)
+![](https://testerhome.com/uploads/photo/2018/26d494a6-7b4f-4b69-8db1-0a3b45f886b7.png!large)
 
-非常感谢您花费时间阅读，祝您在这里记录、阅读、分享愉快！
-欢迎留言评论，有问题也可以联系我或者加群交流...
+**非常感谢您花费时间阅读，祝您在这里记录、阅读、分享愉快！**
+**欢迎留言评论，有问题也可以联系我或者加群交流....**
 
-作者：@刘智King            
-QQ：1306086303
-QQ群：126325132         
+作者：[@刘智King](http://shang.qq.com/email/stop/email_stop.html?qq=1306086303&sig=a1c657365db7e82805ea4b2351081fc3ebcde159f8ae49b1&tttt=1)         
+QQ：1306086303     
 Email：hagyao520@163.com
+
+> QQ官方交流群 126325132
+<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=346d11a1a76d05086cd48bc8249126f514248479b50f96288189ab5ae0ca7ba5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="软件测试开发交流群" title="软件测试开发交流群"></a>
 

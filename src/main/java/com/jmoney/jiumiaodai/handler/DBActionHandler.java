@@ -12,35 +12,91 @@ import com.jmoney.jiumiaodai.util.SeleniumUtil;
 
 public class DBActionHandler {
 	
-	public void dbInsert(TestStep step) throws Exception{
+	public void dbInserta(TestStep step) throws Exception{
 		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
 		int n = DBHelper.insert(AppiumUtil.parseStringHasEls(step.getValue()));
 		if(n > 0){	
 		}
 	}
 	
-	public void dbInsertm(TestStep step) throws Exception{
+	public void dbInsertw(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		int n = DBHelper.insert(SeleniumUtil.parseStringHasEls(step.getValue()));
+		if(n > 0){	
+		}
+	}
+	
+	public void dbInsertma(TestStep step) throws Exception{
 		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
 		int n = DBHelper.insert1(AppiumUtil.parseStringHasEls(step.getValue()));
 		if(n > 0){	
 		}
 	}
 	
-	public void dbDelete(TestStep step) throws Exception{
+	public void dbInsertmw(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		int n = DBHelper.insert1(SeleniumUtil.parseStringHasEls(step.getValue()));
+		if(n > 0){	
+		}
+	}
+	
+	public void dbInsertmssha(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		int n = DBHelper.insert2(AppiumUtil.parseStringHasEls(step.getValue()));
+		if(n > 0){	
+		}
+	}
+	
+	public void dbInsertmsshw(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		int n = DBHelper.insert2(SeleniumUtil.parseStringHasEls(step.getValue()));
+		if(n > 0){	
+		}
+	}
+	
+	public void dbDeletea(TestStep step) throws Exception{
 		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
 		int n = DBHelper.delete(AppiumUtil.parseStringHasEls(step.getValue()));
 		if(n > 0){	
 		}
 	}
 	
-	public void dbDeletem(TestStep step) throws Exception{
+	public void dbDeletew(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		int n = DBHelper.delete(SeleniumUtil.parseStringHasEls(step.getValue()));
+		if(n > 0){	
+		}
+	}
+	
+	public void dbDeletema(TestStep step) throws Exception{
 		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
 		int n = DBHelper.delete1(AppiumUtil.parseStringHasEls(step.getValue()));
 		if(n > 0){	
 		}
 	}
 	
-	public void dbUpdate(TestStep step) throws Exception{
+	public void dbDeletemw(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		int n = DBHelper.delete1(SeleniumUtil.parseStringHasEls(step.getValue()));
+		if(n > 0){	
+		}
+	}
+	
+	public void dbDeletemssha(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		int n = DBHelper.delete2(AppiumUtil.parseStringHasEls(step.getValue()));
+		if(n > 0){	
+		}
+	}
+	
+	public void dbDeletemsshw(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		int n = DBHelper.delete2(SeleniumUtil.parseStringHasEls(step.getValue()));
+		if(n > 0){	
+		}
+	}
+	
+	public void dbUpdatea(TestStep step) throws Exception{
 		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
 		String sql = AppiumUtil.parseStringHasEls(step.getValue());
 //		System.err.println("Query-update "+sql);
@@ -51,11 +107,55 @@ public class DBActionHandler {
 		}	
 	}
 	
-	public void dbUpdatem(TestStep step) throws Exception{
+	public void dbUpdatew(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		String sql = SeleniumUtil.parseStringHasEls(step.getValue());
+//		System.err.println("Query-update "+sql);
+		int n = DBHelper.update(sql);
+		if(n > 0){
+			System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+//			Reporter.log(base.getDesc());
+		}	
+	}
+	
+	public void dbUpdatema(TestStep step) throws Exception{
 		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
 		String sql = AppiumUtil.parseStringHasEls(step.getValue());
 //		System.err.println("Query-update "+sql);
 		int n = DBHelper.update1(sql);
+		if(n > 0){
+			System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+//			Reporter.log(base.getDesc());
+		}	
+	}
+	
+	public void dbUpdatemw(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		String sql = SeleniumUtil.parseStringHasEls(step.getValue());
+//		System.err.println("Query-update "+sql);
+		int n = DBHelper.update1(sql);
+		if(n > 0){
+			System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+//			Reporter.log(base.getDesc());
+		}	
+	}
+	
+	public void dbUpdatemssha(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		String sql = AppiumUtil.parseStringHasEls(step.getValue());
+//		System.err.println("Query-update "+sql);
+		int n = DBHelper.update2(sql);
+		if(n > 0){
+			System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+//			Reporter.log(base.getDesc());
+		}	
+	}
+	
+	public void dbUpdatemsshw(TestStep step) throws Exception{
+		System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
+		String sql = SeleniumUtil.parseStringHasEls(step.getValue());
+//		System.err.println("Query-update "+sql);
+		int n = DBHelper.update2(sql);
 		if(n > 0){
 			System.out.println("『正常测试』开始执行: "+ step.getValue() + " <" +step.getDesc() + ">");
 //			Reporter.log(base.getDesc());

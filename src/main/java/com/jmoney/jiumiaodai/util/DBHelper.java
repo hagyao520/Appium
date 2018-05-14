@@ -25,6 +25,7 @@ import com.jmoney.jiumiaodai.util.DBHelper;
 /**
  * 数据库操作类
  */
+@SuppressWarnings("unused")
 public class DBHelper {
     
     private static final Logger LOG = LoggerFactory.getLogger(DBHelper.class);
@@ -82,6 +83,10 @@ public class DBHelper {
         return executeUpdate1(sql, OpType.INSERT);
     }
     
+    public static int insert2(String sql){
+        return executeUpdate2(sql, OpType.INSERT);
+    }
+    
     /**
      * 数据库删除-Oracle
      * @param sql
@@ -95,6 +100,10 @@ public class DBHelper {
         return executeUpdate1(sql, OpType.DELETE);
     }
     
+    public static int delete2(String sql){
+        return executeUpdate2(sql, OpType.DELETE);
+    }
+    
     /**
      * 数据库修改-Oracle
      * @param sql
@@ -106,6 +115,10 @@ public class DBHelper {
     
     public static int update1(String sql){
         return executeUpdate1(sql, OpType.UPDATE);
+    }
+ 
+    public static int update2(String sql){
+        return executeUpdate2(sql, OpType.UPDATE);
     }
     
     /**
@@ -274,7 +287,7 @@ public class DBHelper {
     }
     
     public static int procedure1(String prc_name, Object... params) {
-        checkConnection();
+        checkConnection1();
         CallableStatement cs = null;
         try {
             cs = connection.prepareCall(prc_name);
@@ -299,22 +312,48 @@ public class DBHelper {
 		return 0;   
     }
     
-    public static int procedure2(String prc_name, String params) {
-        checkConnection();
+    public static int procedure2(String prc_name, Object... params) {
+        checkConnection2();
         CallableStatement cs = null;
         try {
             cs = connection.prepareCall(prc_name);
-            //给存储过程的第一个参数设置值
-            cs.setBigDecimal(1, new BigDecimal(params));
-            //注册存储过程的第二个参数
-            cs.registerOutParameter(2,java.sql.Types.VARCHAR);
+            if(params != null && params.length > 0){
+                for(int i=0; i<params.length; i++){
+                	//TODO set类型对应数据库,包含输入和输出
+                    cs.setString(i+1, String.valueOf(params[i]));
+                }
+            }
+            LOG.info("开始执行存储过程: "+ prc_name); 
             cs.execute();
+            LOG.info("存储过程执行成功 "); 
         } catch (SQLException e) {
-            e.printStackTrace();
+            LOG.error("存储过程["+prc_name+"]执行失败", e.fillInStackTrace());
+        } finally {
+            try {
+                if(cs != null){ cs.close(); cs = null;}
+            } catch (SQLException e) {
+                e.printStackTrace();
+            }
         }
-		return 0;
+		return 0;   
     }
-
+    
+//    public static int procedure2(String prc_name, String params) {
+//        checkConnection();
+//        CallableStatement cs = null;
+//        try {
+//            cs = connection.prepareCall(prc_name);
+//            //给存储过程的第一个参数设置值
+//            cs.setBigDecimal(1, new BigDecimal(params));
+//            //注册存储过程的第二个参数
+//            cs.registerOutParameter(2,java.sql.Types.VARCHAR);
+//            cs.execute();
+//        } catch (SQLException e) {
+//            e.printStackTrace();
+//        }
+//		return 0;
+//    }
+//
 //    public static void procedure2(String Process,String Value,String Result) {  
 //  		checkConnection();
 //  		CallableStatement cs;
@@ -374,6 +413,24 @@ public class DBHelper {
     
     private static int executeUpdate1(String sql, OpType type){
         checkConnection1();
+        PreparedStatement ps = null;
+        LOG.info("Sql: " + sql);
+        try {
+            ps = connection.prepareStatement(sql);
+            int result = ps.executeUpdate();
+            LOG.info("Result: " + result);
+            return result;
+        } catch (SQLException e) {
+            LOG.error(type.desc()+"失败", e.fillInStackTrace());
+        } finally {
+//            close(ps);
+            close();
+        }
+        return -1;
+    }
+    
+    private static int executeUpdate2(String sql, OpType type){
+        checkConnection2();
         PreparedStatement ps = null;
         LOG.info("Sql: " + sql);
         try {
@@ -456,9 +513,9 @@ public class DBHelper {
             System.out.println(SSH_User+SSH_Host+SSH_Port+SSH_Password);  
             session.setConfig("StrictHostKeyChecking", "no");  
             session.connect();  
-            System.out.println(session.getServerVersion());//这里打印SSH服务器版本信息  
+            System.out.println("SSH服务器连接成功，版本信息为："+session.getServerVersion());//这里打印SSH服务器版本信息  
             int assinged_port = session.setPortForwardingL(SSH_Lport, SSH_Rhost,SSH_Rport);  
-            System.out.println("localhost:" + assinged_port + " -> " + SSH_Rhost + ":" + SSH_Rport);  
+            System.out.println("端口映射成功：localhost:" + assinged_port + " -> " + SSH_Rhost + ":" + SSH_Rport);  
         } catch (Exception e) {  
             e.printStackTrace();  
         } 

@@ -10,6 +10,7 @@
         •  混合应用是指一种包裹WebView的应用，原生应用于网页内容交互性的应用，例如微信即有分期
         •  其中最重要的是Appium是跨平台的，何为跨平台，意思就是可以针对不同的平台用一套API来编写测试用例
 
+ ---
 ### 框架介绍
     Java + Appium + Maven + TestNG + JDBC + Xml+ Git + +Ant + Jenkins 
         •  使用Java作为项目编程语言
@@ -22,6 +23,7 @@
         •  使用Ant作为Java的build打包工具，方便项目代码打包
         •  使用Jenkins作为自动化持续集成平台，方便自动编译，自动打包，自动运行测试脚本，邮件发送测试报告
 
+ ---
 ### 主要功能
     1.  实现了基于Appium，WebDriver等常用操作方法的二次封装，包括（滑动，点击，输入，元素定位）等，使用起来更简便
     2.  实现了基于Windows，Android，IOS操作系统的cmd，adb，terminal常用DOS命令的快速调用
@@ -34,6 +36,7 @@
     9.  实现了常用API接口请求操作，包含（POST，GET）等，可直接在测试脚本中调用，只需传递对应参数即可，满足多种测试需求
     10. 实现了基于ExtentReports，TestNG生成的测试报告二次美化功能，界面更美观，内容清晰
 
+ ---
 ### 环境配置
    1. [JDK1.7以上](http://www.Oracle.com/technetwork/Java/javase/downloads/index.html)
    2. [Eclipse](http://www.eclipse.org/downloads)/[IDEA](https://www.jetbrains.com/idea/)
@@ -47,10 +50,12 @@
    9. [一台安卓手机或者安卓模拟器，推荐使用真机](https://www.yeshen.com) 
 
  - 部分网站需要翻墙，具体安装参考：https://blog.csdn.net/love4399/article/details/77164500
-  
+ 
+ ---
 ### 注意事项
  - 工程项目编码需要设置成UTF-8，否则会出现中文乱码情况
 
+ ---
 ### 一、创建测试对象类，例如【WeChatLogin.java】
     package TestCases;
 
@@ -91,6 +96,7 @@
         }
     }
 
+ ---
 ### 二、创建测试脚本用例，例如【WeChatLogin.xml】
     <?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
     <unit id="WeChatLogin" desc="微信登录流程的测试场景点">
@@ -120,6 +126,7 @@
 
   - 具体脚本编方法请参考: https://pan.baidu.com/s/1fdMMGrr9XY6lJdXCv-1AYw
 
+ ---
 ### 三、Appium服务配置
     public static void appiumConfigure() throws Exception {
           //指定APK安装路径:
@@ -186,10 +193,12 @@
 
  - 测试执行时需要指定DeviceName，PlatformName，PlatformVersion等信息，DeviceName通过命令adb devices获取
 
+ ---
 ### 四、执行用例
  - 编写完对应测试用例类【WeChatLogin.java】，和测试脚本【WeChatLogin.xml】后，在IDE集成开发环境下选择WeChatLogin.java右键使用TestNG运行即可
 ![](https://testerhome.com/uploads/photo/2018/d50bb63a-c419-42d6-9606-cc587c219a3b.png!large)
 
+ ---
 ### 五、测试报告
  - 测试报告分为两种，一种是TestNG自带的TestngReport测试报告，另外一种则是调用ExtentReports生成的报告，第二种更加美观
 
@@ -215,6 +224,7 @@
     </suite>
 ![](https://testerhome.com/uploads/photo/2018/7ed6f23c-6ede-4439-8dac-1a09a0885221.png!large)
 
+ ---
 ### [ExtentReports](https://static.oschina.net/uploads/space/2018/0508/141802_q76M_3854545.png)
     <?xml version="1.0" encoding="UTF-8"?>
     <suite name="Suite" verbose="1" preserve-order="true" parallel="false">
@@ -230,18 +240,24 @@
  ![](https://testerhome.com/uploads/photo/2018/d0a65967-b63b-4a0a-acc5-dcd7e1988fce.png!large)
  - 第二种测种试报告，需要翻墙才能正常显示，否则页面显示乱码，因为是国外的东西
  - 或者在C:\Windows\System32\drivers\etc    host文件末尾添加151.139.237.11   cdn.rawgit.com
-
+ 
  ---
-### 六、感谢
-#### 如果您觉得这个产品对您有用，您可以捐赠下我，让我有理由继续下去，非常感谢。
+### 六、Jnekins持续集成：
+![](https://testerhome.com/uploads/photo/2018/6c209373-80f5-47f3-a9d7-e7dbfe3ea523.png!large)
+![](https://testerhome.com/uploads/photo/2018/e24ab598-67da-471d-a924-cc5360c92ec7.png!large)
+ - 搭建Jenkins环境，具体请参考: https://blog.csdn.net/wuxuehong0306/article/details/50016547
+ - 配置Jenkins自动化持续集成项目，即可实现远程服务器自动（构建，编译，打包）运行脚本，发送邮件测试报告等
+ 
+ ---
+### 七、感谢
+#### 如果您觉得这个框架对您有用，您可以捐赠下我，让我有理由继续下去，非常感谢。
 ![](https://testerhome.com/uploads/photo/2018/26d494a6-7b4f-4b69-8db1-0a3b45f886b7.png!large)
 
 **非常感谢您花费时间阅读，祝您在这里记录、阅读、分享愉快！**
-**欢迎留言评论，有问题也可以联系我或者加群交流....**
+**欢迎留言评论，有问题也可以联系我或者加群交流...**
 
 作者：[@刘智King](http://shang.qq.com/email/stop/email_stop.html?qq=1306086303&sig=a1c657365db7e82805ea4b2351081fc3ebcde159f8ae49b1&tttt=1)         
 QQ：1306086303     
 Email：hagyao520@163.com
 
 > QQ官方交流群 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=346d11a1a76d05086cd48bc8249126f514248479b50f96288189ab5ae0ca7ba5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="126325132" title="126325132"></a>
-

@@ -12,9 +12,9 @@
     <case 
          id="case2" 
         name="验证在登录界面，输入正确的手机号和密码，点击登录按钮后，可以正常登录成功，并跳转至首页主界面">
-        <step action="android-input" locator="text=请填写手机号" value="18694925429" desc="输入正确的手机号"/>
+        <step action="android-input" locator="text=请填写手机号" value="XXXXXXX" desc="输入正确的手机号"/>
         <step action="android-click" locator="text=下一步" desc="点击下一步按钮"/>
-        <step action="android-input" locator="text=请填写微信密码" value="qpalzm612425" desc="输入正确的密码"/>
+        <step action="android-input" locator="text=请填写微信密码" value="XXXXXX" desc="输入正确的密码"/>
         <step action="android-click" locator="text=登录" desc="点击登录按钮"/>
     </case>
 </unit>

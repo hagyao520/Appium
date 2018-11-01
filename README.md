@@ -63,9 +63,9 @@
     import org.testng.annotations.BeforeTest;
     import org.testng.annotations.Test;
 
-    import com.jmoney.jiumiaodai.base.TestUnit;
-    import com.jmoney.jiumiaodai.service.RunUnitService;
-    import com.jmoney.jiumiaodai.service.AndroidXmlParseService;
+    import AutomationTestSystem.Base.TestUnit;
+    import AutomationTestSystem.Service.RunUnitService;
+    import AutomationTestSystem.Service.AndroidXmlParseService;
 
     public class WeChatLogin {
 
@@ -73,7 +73,7 @@
     
         @BeforeTest
         private void stup() throws Exception{
-            TestUnit testunit = AndroidXmlParseService.ParseTest("src/test/java/TestCaseXml/WeChatLogin.xml");
+            TestUnit testunit = AndroidXmlParseService.parse("WeChat.apk","com.tencent.mm","Android","8.0","55CDU16726008808","WeChatLogin.xml");
             runService = new RunUnitService(testunit);
             System.out.println("--------------------------【微信登录流程的测试场景点】--------------------------");
         }
@@ -104,7 +104,7 @@
     <case 
         id="case1" 
         name="验证在Android系统中，首次启动微信APP，点击登录按钮后，可以正常进入登录界面">
-        <step action="wait-forced" value="6000" desc="强制等待5秒"/>
+        <step action="wait-forced" value="5000" desc="强制等待5秒"/>
         <step action="android-click" locator="resource-id=com.tencent.mm:id/ca4" desc="点击登录按钮"/>    
         <step action="android-check" locator="resource-id=com.tencent.mm:id/a_m" expect="登录" message="进入登录界面失败(实际结果和预期结果不一致)" caseid="Case1" desc="检查在Android系统中，首次启动微信APP，点击登录按钮后，可以正常进入登录界面"/>
     </case>
@@ -128,67 +128,71 @@
 
  ---
 ### 三、Appium服务配置
-    public static void appiumConfigure() throws Exception {
-          //指定APK安装路径:
-          File apk = new File(ConfigUtil.getProperty("apk.path", Constants.CONFIG_COMMON), "weixin_1300.apk");
+    public static void AppiumConfigure(String ApkName,String ApkPackageName,String PlatformName,String PlatformVersion,String DeviceID) throws Exception {
+        Runtime.getRuntime().exec("adb -s "+DeviceID+" uninstall "+ApkPackageName+""); 
+        //指定APK安装路径:
+        File apk = new File(ConfigUtil.getProperty("apk.path", Constants.CONFIG_COMMON), ApkName);
 
-          //设置自动化相关参数:
-          DesiredCapabilities capabilities = new DesiredCapabilities();
+        //设置自动化相关参数:
+        DesiredCapabilities capabilities = new DesiredCapabilities();
 
-          //设置Appium测试引擎:
-          capabilities.setCapability("device", "uiautomator");
+        //设置Appium测试引擎:
+        capabilities.setCapability("device", "uiautomator2");
 
-          //指定测试设备型号或物理ID，系统及系统版本:
-          //当前连接的手机,默认识别一台
-          capabilities.setCapability("deviceName", "Android Emulator");
-
-          //小米5S(黑色-USB有线连接)
-          //capabilities.setCapability("deviceName", "29739ff4");
-          //capabilities.setCapability("udid", "29739ff4");
+        //指定测试设备系统及系统版本:
+        capabilities.setCapability("platformName", PlatformName);
+        capabilities.setCapability("platformVersion", PlatformVersion);
         
-          //小米5S(金色-USB有线连接)
-          //capabilities.setCapability("deviceName", "b62f7ec6");
-          //capabilities.setCapability("udid", "b62f7ec6");
-        
-          //小米5S(金色-WIFI无线连接)
-          //capabilities.setCapability("deviceName", ConfigUtil.getProperty("MI_5S_golden.WIFI", Constants.CONFIG_COMMON));
-          //capabilities.setCapability("udid", ConfigUtil.getProperty("MI_5S_golden.WIFI", Constants.CONFIG_COMMON));
-        
-          capabilities.setCapability("platformName", "Android");
-          capabilities.setCapability("platformVersion", "4.2.2");
-
-          //初始化APP缓存，false(初始化)/true(不初始化)
-          capabilities.setCapability("noReset", true);
-
-          //重新安装APP，true(重新安装)/false(不重新安装)
-          capabilities.setCapability("fullReset", false);
-
-          //启动时是否覆盖session，true(覆盖)/false(不覆盖)
-          capabilities.setCapability("sessionOverride", false);
-
-          //开启中文输入，安装Unicode输入法，true(安装)/false(不安装)
-          capabilities.setCapability("unicodeKeyboard", true);
-
-          //还原系统默认输入法，true(还原)/false(不还原)
-          capabilities.setCapability("resetKeyboard", true);
-
-          //设置Appium超时时间:
-          capabilities.setCapability("newCommandTimeout", 60000);
-
-          //APK重新签名，false(重签)/true(不重签)
-          capabilities.setCapability("noSign", true);
-
-          //已安装后启动APP
-          capabilities.setCapability("app", apk.getAbsolutePath());
-
-          //进入Webview
-          capabilities.setCapability("autoWebview", true);
-
-          //初始化AndroidDriver
-          driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        //当前连接的手机,默认识别一台
+        //capabilities.setCapability("deviceName", "Android Emulator");
     
-          //设置全局隐性等待时间
-          driver.manage().timeouts().implicitlyWait(80000, TimeUnit.MILLISECONDS);
+        //指定测试设备名称及设备ID:
+        capabilities.setCapability("deviceName", DeviceID);
+        capabilities.setCapability("udid", DeviceID);
+        
+        //小米5S(黑色-USB有线连接)
+        //capabilities.setCapability("deviceName", "29739ff4");
+        //capabilities.setCapability("udid", "29739ff4");
+
+        //小米5S(金色-WIFI无线连接)
+        //capabilities.setCapability("deviceName", ConfigUtil.getProperty("MI_5S_golden.WIFI", Constants.CONFIG_COMMON));
+        //capabilities.setCapability("udid", ConfigUtil.getProperty("MI_5S_golden.WIFI", Constants.CONFIG_COMMON));
+        
+        //初始化APP缓存，false(初始化)/true(不初始化)
+        capabilities.setCapability("noReset", true);
+
+        //重新安装APP，true(重新安装)/false(不重新安装)
+        capabilities.setCapability("fullReset", false);
+        
+        //启动时是否覆盖session，true(覆盖)/false(不覆盖)
+        capabilities.setCapability("sessionOverride", false);
+
+        //开启中文输入，安装Unicode输入法，true(安装)/false(不安装)
+        capabilities.setCapability("unicodeKeyboard", true);
+
+        //还原系统默认输入法，true(还原)/false(不还原)
+        capabilities.setCapability("resetKeyboard", true);
+
+        //设置Appium超时时间:
+        capabilities.setCapability("newCommandTimeout", 60000);
+
+        //APK重新签名，false(重签)/true(不重签)
+        capabilities.setCapability("noSign", true);
+
+        //已安装后启动APP
+        capabilities.setCapability("app", apk.getAbsolutePath());
+        
+        //进入Webview
+        //capabilities.setCapability("autoWebview", true);
+
+        //初始化AndroidDriver
+        driver = new AndroidDriver<WebElement>(new URL("http://127.0.0.1:4723/wd/hub"), capabilities);
+        
+        //命令启动Appium Service
+        //node C:\Users\King-liu\AppData\Local\Programs\Appium\resources\app\node_modules\appium\build\lib\main.js --address 127.0.0.1 --port 4723
+        
+        //设置全局隐性等待时间
+        driver.manage().timeouts().implicitlyWait(80000, TimeUnit.MILLISECONDS);
     }
 
  - 测试执行时需要指定DeviceName，PlatformName，PlatformVersion等信息，DeviceName通过命令adb devices获取
@@ -222,7 +226,7 @@
             <listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
         </listeners>      
     </suite>
-![](https://testerhome.com/uploads/photo/2018/7ed6f23c-6ede-4439-8dac-1a09a0885221.png!large)
+![](https://testerhome.com/uploads/photo/2018/951265b3-14c3-4077-b5e6-128c5e6836ba.png!large)
 
  ---
 ### [ExtentReports](https://static.oschina.net/uploads/space/2018/0508/141802_q76M_3854545.png)
@@ -237,7 +241,7 @@
         <!-- C:\Windows\System32\drivers\etc
         151.139.237.11    cdn.rawgit.com -->
     </suite>
- ![](https://testerhome.com/uploads/photo/2018/d0a65967-b63b-4a0a-acc5-dcd7e1988fce.png!large)
+ ![](https://testerhome.com/uploads/photo/2018/ba36194f-c51f-42fa-862c-8c5ec6ea38e3.png!large)
  - 第二种测种试报告，需要翻墙才能正常显示，否则页面显示乱码，因为是国外的东西
  - 或者在C:\Windows\System32\drivers\etc    host文件末尾添加151.139.237.11   cdn.rawgit.com
  
@@ -260,4 +264,5 @@
 QQ：1306086303     
 Email：hagyao520@163.com
 
-> QQ官方交流群 <a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=346d11a1a76d05086cd48bc8249126f514248479b50f96288189ab5ae0ca7ba5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="126325132" title="126325132"></a>
+> QQ官方交流群 126325132
+<a target="_blank" href="//shang.qq.com/wpa/qunwpa?idkey=346d11a1a76d05086cd48bc8249126f514248479b50f96288189ab5ae0ca7ba5"><img border="0" src="//pub.idqqimg.com/wpa/images/group.png" alt="软件测试开发交流群" title="软件测试开发交流群"></a>

@@ -4,7 +4,7 @@
         <suite-file path="TestngReport.xml"></suite-file>
     </suite-files>
     <listeners>
-        <listener class-name="com.jmoney.jiumiaodai.service.ExtentReportGenerateService"></listener>
+        <listener class-name="AutomationTestSystem.Service.ExtentReportGenerateService"></listener>
     </listeners> 
     <!-- C:\Windows\System32\drivers\etc
         151.139.237.11    cdn.rawgit.com -->

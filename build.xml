@@ -16,7 +16,7 @@
     <property name="TestData.dir" value="TestData" />
     <property name="targetData.dir" value="target/TestData" />
     <property name="xsl.dir" value="Libs/TestReport/TestngReport" />
-	<property name="xml.dir" value="src/main/java/TestReportXml" />
+	<property name="xml.dir" value="src/test/java/TestReportXml" />
 	<property name="run.xml" value="ExtentReport.xml" />
 	<property name="tng.testngOutput" value="TestOutput" />
 	<property name="tng.testngReport" value="TestOutput/TestngReport" />
